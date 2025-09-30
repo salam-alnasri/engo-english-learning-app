@@ -32,7 +32,7 @@ Engo is an interactive English learning application built with Flutter. It provi
 
 | Welcome Screen | Learning Levels | Quiz Interface |
 |:-------------:|:---------------:|:--------------:|
-| ![ assets/images/222.png](screenshots/welcome.png) | ![assets/images/111.png](screenshots/levels.png) | ![assets/images/444.png](screenshots/quiz.png) |
+| ![Welcome](assets/images/222.png) | ![Levels](assets/images/111.png) | ![Quiz](assets/images/444.png) |
 
 ## 🚀 Getting Started
 
