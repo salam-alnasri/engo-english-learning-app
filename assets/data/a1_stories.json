@@ -1,0 +1,366 @@
+{
+  "version": 1,
+  "level": "A1",
+  "items": [
+    {
+      "id": "a1_1",
+      "title": "My Pet",
+      "titleAr": "حيواني الأليف",
+      "paragraphs": [
+        "My name is Omar. I have a small dog. His name is Rex. He is brown and white.",
+        "Every day, I play with Rex in the garden. I give him food and water. Rex likes to run and jump.",
+        "Rex is my best friend. He sleeps near my bed at night. I love my dog very much."
+      ],
+      "vocab": [
+        {
+          "en": "pet",
+          "ar": "حيوان أليف"
+        },
+        {
+          "en": "dog",
+          "ar": "كلب"
+        },
+        {
+          "en": "garden",
+          "ar": "حديقة"
+        },
+        {
+          "en": "run",
+          "ar": "يركض"
+        },
+        {
+          "en": "jump",
+          "ar": "يقفز"
+        },
+        {
+          "en": "bed",
+          "ar": "سرير"
+        }
+      ]
+    },
+    {
+      "id": "a1_2",
+      "title": "My Favourite Food",
+      "titleAr": "طعامي المفضل",
+      "paragraphs": [
+        "My name is Lina. I love food. My favourite food is pizza. I like it with cheese and tomato.",
+        "On Fridays, my mother makes pizza for me. My father likes pizza too. We eat together as a family.",
+        "Sometimes we go to a restaurant. I eat pizza and drink orange juice. I am always happy at dinner time."
+      ],
+      "vocab": [
+        {
+          "en": "favourite",
+          "ar": "مفضل"
+        },
+        {
+          "en": "pizza",
+          "ar": "بيتزا"
+        },
+        {
+          "en": "cheese",
+          "ar": "جبنة"
+        },
+        {
+          "en": "tomato",
+          "ar": "طماطم"
+        },
+        {
+          "en": "restaurant",
+          "ar": "مطعم"
+        },
+        {
+          "en": "dinner",
+          "ar": "عشاء"
+        }
+      ]
+    },
+    {
+      "id": "a1_3",
+      "title": "My Best Friend",
+      "titleAr": "صديقي المفضل",
+      "paragraphs": [
+        "Hello! My name is Khaled. I have a friend. His name is Sami. We are in the same class.",
+        "We play together every day. At school, we sit next to each other. We read and write together.",
+        "After school, we go to the park. Sami has a red bike. I have a blue bike. We ride and laugh together."
+      ],
+      "vocab": [
+        {
+          "en": "friend",
+          "ar": "صديق"
+        },
+        {
+          "en": "same",
+          "ar": "نفس"
+        },
+        {
+          "en": "class",
+          "ar": "صف"
+        },
+        {
+          "en": "next to",
+          "ar": "بجانب"
+        },
+        {
+          "en": "bike",
+          "ar": "دراجة"
+        },
+        {
+          "en": "laugh",
+          "ar": "يضحك"
+        }
+      ]
+    },
+    {
+      "id": "a1_4",
+      "title": "At the Park",
+      "titleAr": "في الحديقة",
+      "paragraphs": [
+        "On Saturday, I go to the park with my family. The park is big and green. There are many trees.",
+        "My sister and I play on the swings. My father sits on a bench and reads a book. My mother watches us.",
+        "We eat sandwiches and drink water. Then we walk home. The park is my favourite place."
+      ],
+      "vocab": [
+        {
+          "en": "park",
+          "ar": "حديقة عامة"
+        },
+        {
+          "en": "tree",
+          "ar": "شجرة"
+        },
+        {
+          "en": "swing",
+          "ar": "أرجوحة"
+        },
+        {
+          "en": "bench",
+          "ar": "مقعد"
+        },
+        {
+          "en": "sandwich",
+          "ar": "شطيرة"
+        },
+        {
+          "en": "walk",
+          "ar": "يمشي"
+        }
+      ]
+    },
+    {
+      "id": "a1_5",
+      "title": "My Birthday",
+      "titleAr": "عيد ميلادي",
+      "paragraphs": [
+        "My birthday is in July. I am twelve years old. My mother makes a big cake for me.",
+        "My friends come to my party. They give me nice gifts. I get books, a ball, and a new bag.",
+        "We play games and eat cake together. I am very happy on my birthday. Thank you, everyone!"
+      ],
+      "vocab": [
+        {
+          "en": "birthday",
+          "ar": "عيد ميلاد"
+        },
+        {
+          "en": "cake",
+          "ar": "كعكة"
+        },
+        {
+          "en": "gift",
+          "ar": "هدية"
+        },
+        {
+          "en": "ball",
+          "ar": "كرة"
+        },
+        {
+          "en": "bag",
+          "ar": "حقيبة"
+        },
+        {
+          "en": "party",
+          "ar": "حفلة"
+        }
+      ]
+    },
+    {
+      "id": "a1_6",
+      "title": "My Room",
+      "titleAr": "غرفتي",
+      "paragraphs": [
+        "I have a small room in our house. It is blue and white. There is a bed, a desk, and a chair.",
+        "On the desk, I have books and pens. On the wall, there is a clock and a picture. I like my room.",
+        "Every night, I read a story in my room. Then I sleep. My room is clean and nice."
+      ],
+      "vocab": [
+        {
+          "en": "room",
+          "ar": "غرفة"
+        },
+        {
+          "en": "desk",
+          "ar": "مكتب"
+        },
+        {
+          "en": "wall",
+          "ar": "حائط"
+        },
+        {
+          "en": "clock",
+          "ar": "ساعة حائط"
+        },
+        {
+          "en": "picture",
+          "ar": "صورة"
+        },
+        {
+          "en": "clean",
+          "ar": "نظيف"
+        }
+      ]
+    },
+    {
+      "id": "a1_7",
+      "title": "My Day",
+      "titleAr": "يومي",
+      "paragraphs": [
+        "My name is Yara. Every day, I get up at seven o’clock. I wash my face and brush my teeth.",
+        "Then I eat breakfast with my family. I drink milk and eat eggs. After that, I go to school.",
+        "In the evening, I do my homework. I watch TV with my brother. Then I go to bed at nine o’clock."
+      ],
+      "vocab": [
+        {
+          "en": "wash",
+          "ar": "يغسل"
+        },
+        {
+          "en": "brush",
+          "ar": "يفرش"
+        },
+        {
+          "en": "teeth",
+          "ar": "أسنان"
+        },
+        {
+          "en": "breakfast",
+          "ar": "فطور"
+        },
+        {
+          "en": "homework",
+          "ar": "واجب منزلي"
+        },
+        {
+          "en": "evening",
+          "ar": "مساء"
+        }
+      ]
+    },
+    {
+      "id": "a1_8",
+      "title": "At the Beach",
+      "titleAr": "على الشاطئ",
+      "paragraphs": [
+        "In summer, my family goes to the beach. The sea is blue and the sand is yellow. I love the beach.",
+        "I swim in the water with my brother. My mother sits under a big umbrella. My father takes pictures.",
+        "We eat ice cream and play in the sand. The beach is fun and warm. I want to go again!"
+      ],
+      "vocab": [
+        {
+          "en": "beach",
+          "ar": "شاطئ"
+        },
+        {
+          "en": "sea",
+          "ar": "بحر"
+        },
+        {
+          "en": "sand",
+          "ar": "رمل"
+        },
+        {
+          "en": "swim",
+          "ar": "يسبح"
+        },
+        {
+          "en": "umbrella",
+          "ar": "مظلة شمسية"
+        },
+        {
+          "en": "ice cream",
+          "ar": "آيس كريم"
+        }
+      ]
+    },
+    {
+      "id": "a1_9",
+      "title": "My Favourite Colour",
+      "titleAr": "لوني المفضل",
+      "paragraphs": [
+        "My name is Adam. My favourite colour is blue. I have a blue shirt, blue shoes, and a blue bag.",
+        "My sister likes red. She has a red dress and a red hat. My brother likes green. He has a green ball.",
+        "My room is white and yellow. But my favourite thing in my room is my blue fish. It is on my desk."
+      ],
+      "vocab": [
+        {
+          "en": "colour",
+          "ar": "لون"
+        },
+        {
+          "en": "shirt",
+          "ar": "قميص"
+        },
+        {
+          "en": "shoes",
+          "ar": "حذاء"
+        },
+        {
+          "en": "dress",
+          "ar": "فستان"
+        },
+        {
+          "en": "hat",
+          "ar": "قبعة"
+        },
+        {
+          "en": "fish",
+          "ar": "سمكة"
+        }
+      ]
+    },
+    {
+      "id": "a1_10",
+      "title": "My Big Family",
+      "titleAr": "عائلتي الكبيرة",
+      "paragraphs": [
+        "My name is Hala. I have a big family. My father, my mother, two brothers, and one sister live with me.",
+        "My father works in an office. My mother works at home. My brothers go to school like me.",
+        "On holidays, we visit my grandmother. She cooks for us. We eat and laugh together. I love my family."
+      ],
+      "vocab": [
+        {
+          "en": "big",
+          "ar": "كبير"
+        },
+        {
+          "en": "office",
+          "ar": "مكتب"
+        },
+        {
+          "en": "holiday",
+          "ar": "عطلة"
+        },
+        {
+          "en": "grandmother",
+          "ar": "جدّة"
+        },
+        {
+          "en": "cook",
+          "ar": "تطبخ"
+        },
+        {
+          "en": "together",
+          "ar": "معاً"
+        }
+      ]
+    }
+  ]
+}

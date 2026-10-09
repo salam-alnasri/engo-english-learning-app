@@ -1,0 +1,366 @@
+{
+  "version": 1,
+  "level": "B2",
+  "items": [
+    {
+      "id": "b2_1",
+      "title": "The Generation Gap",
+      "titleAr": "الفجوة بين الأجيال",
+      "paragraphs": [
+        "Growing up in a family where three generations live under the same roof has taught me that the so-called \"generation gap\" is not a myth. My grandparents, my parents, and I often have very different opinions about almost everything.",
+        "My grandfather, for instance, believes that young people should respect tradition above personal ambition. He often says that we have forgotten the value of patience and hard physical work. My parents, on the other hand, encourage me to follow my dreams and build a career, even if it means breaking some old rules.",
+        "At first, I found these discussions exhausting. However, I have come to realise that every generation has something valuable to offer. My grandfather's stories teach me humility, while my parents push me toward independence. Living with them has taught me that understanding does not always mean agreeing, but it does mean listening."
+      ],
+      "vocab": [
+        {
+          "en": "generation",
+          "ar": "جيل"
+        },
+        {
+          "en": "tradition",
+          "ar": "تقليد"
+        },
+        {
+          "en": "ambition",
+          "ar": "طموح"
+        },
+        {
+          "en": "humility",
+          "ar": "تواضع"
+        },
+        {
+          "en": "independence",
+          "ar": "استقلالية"
+        },
+        {
+          "en": "gap",
+          "ar": "فجوة"
+        }
+      ]
+    },
+    {
+      "id": "b2_2",
+      "title": "Working from Home",
+      "titleAr": "العمل من المنزل",
+      "paragraphs": [
+        "Since the pandemic, remote work has become the new normal for millions of professionals around the world. While some companies have asked their employees to return to the office, many have chosen to make working from home permanent. This change has sparked heated debates about productivity and work-life balance.",
+        "Those in favour of remote work argue that it saves commuting time and allows employees to spend more time with their families. Studies have also shown that, in some cases, productivity increases when people work in comfortable environments. On the other hand, critics point out that isolation can affect mental health and creativity.",
+        "Personally, I believe that a hybrid model is the most reasonable solution. Working from home two or three days a week gives people flexibility, while going to the office helps them stay connected to their colleagues. The future of work will probably depend on finding the right balance."
+      ],
+      "vocab": [
+        {
+          "en": "remote",
+          "ar": "عن بُعد"
+        },
+        {
+          "en": "permanent",
+          "ar": "دائم"
+        },
+        {
+          "en": "hybrid",
+          "ar": "هجين / مختلط"
+        },
+        {
+          "en": "flexibility",
+          "ar": "مرونة"
+        },
+        {
+          "en": "productivity",
+          "ar": "إنتاجية"
+        },
+        {
+          "en": "isolation",
+          "ar": "عزلة"
+        }
+      ]
+    },
+    {
+      "id": "b2_3",
+      "title": "The True Value of Education",
+      "titleAr": "القيمة الحقيقية للتعليم",
+      "paragraphs": [
+        "Throughout history, education has been considered one of the most powerful tools for changing lives. Yet, what counts as \"real\" education has always been a matter of debate. Is it the knowledge we gain from books, or the lessons we learn from life itself?",
+        "Many people believe that formal schooling is essential because it teaches us not only academic subjects but also discipline, critical thinking, and how to work with others. Schools expose us to different cultures, ideas, and perspectives that we might never encounter otherwise.",
+        "Others argue, however, that education happens everywhere. A teenager who learns to run a small business, a worker who masters a craft, or a mother who teaches her children values — they are all educated in their own way. In my view, education is not limited to classrooms. What matters is the willingness to keep learning throughout life."
+      ],
+      "vocab": [
+        {
+          "en": "tool",
+          "ar": "أداة"
+        },
+        {
+          "en": "formal",
+          "ar": "منهجي / رسمي"
+        },
+        {
+          "en": "critical thinking",
+          "ar": "تفكير نقدي"
+        },
+        {
+          "en": "perspective",
+          "ar": "منظور"
+        },
+        {
+          "en": "encounter",
+          "ar": "يصادف / يلتقي"
+        },
+        {
+          "en": "willingness",
+          "ar": "استعداد / رغبة"
+        }
+      ]
+    },
+    {
+      "id": "b2_4",
+      "title": "A Story of Cultural Shock",
+      "titleAr": "قصة صدمة ثقافية",
+      "paragraphs": [
+        "The first time I travelled to Germany, I experienced a serious case of cultural shock. Before my trip, I had heard that Germans were cold and distant, but I refused to believe the stereotype. Within a few days, however, I realised that the stereotype was rooted in misunderstanding.",
+        "In my country, greeting a stranger with a warm smile is perfectly normal. In Germany, people tend to keep a respectful distance in public, and smiling at strangers can sometimes be seen as inappropriate. At the supermarket, the cashier did not return my smile, and at first I thought she was rude. Later, I understood that she was simply following a different social code.",
+        "That experience taught me an important lesson: what we consider \"polite\" or \"rude\" is shaped by the culture we grow up in. Travelling is, in a way, the best education there is, because it forces us to question our own assumptions and become more tolerant."
+      ],
+      "vocab": [
+        {
+          "en": "stereotype",
+          "ar": "صورة نمطية"
+        },
+        {
+          "en": "misunderstanding",
+          "ar": "سوء فهم"
+        },
+        {
+          "en": "polite",
+          "ar": "مهذب"
+        },
+        {
+          "en": "assumption",
+          "ar": "افتراض"
+        },
+        {
+          "en": "tolerant",
+          "ar": "متسامح"
+        },
+        {
+          "en": "distant",
+          "ar": "بعيد / متحفّظ"
+        }
+      ]
+    },
+    {
+      "id": "b2_5",
+      "title": "Environmental Responsibility",
+      "titleAr": "المسؤولية البيئية",
+      "paragraphs": [
+        "It is no longer possible to ignore the fact that our planet is facing an environmental crisis. From rising temperatures to disappearing forests, the signs are everywhere, and scientists warn that we have only a few years to change course.",
+        "Although governments play a key role in setting environmental policies, individuals also carry a great deal of responsibility. Small daily choices — such as reducing plastic use, saving water, or using public transport — can collectively make a huge difference if millions of people adopt them.",
+        "However, real change requires more than individual habits. It demands a shift in how companies produce goods, how cities are designed, and how we measure economic success. If we continue to prioritise short-term profit over long-term sustainability, no recycling campaign will be enough. Protecting the environment is not just an option; it is a moral duty that we owe to future generations."
+      ],
+      "vocab": [
+        {
+          "en": "crisis",
+          "ar": "أزمة"
+        },
+        {
+          "en": "sustainability",
+          "ar": "استدامة"
+        },
+        {
+          "en": "recycling",
+          "ar": "إعادة تدوير"
+        },
+        {
+          "en": "generations",
+          "ar": "أجيال"
+        },
+        {
+          "en": "moral",
+          "ar": "أخلاقي"
+        },
+        {
+          "en": "shift",
+          "ar": "تحوّل"
+        }
+      ]
+    },
+    {
+      "id": "b2_6",
+      "title": "The Influence of Social Media",
+      "titleAr": "تأثير وسائل التواصل الاجتماعي",
+      "paragraphs": [
+        "Over the past decade, social media has completely transformed the way we communicate, consume information, and even define success. Platforms like Instagram, TikTok, and X have created new jobs, new celebrities, and new ways of building communities.",
+        "Nevertheless, this transformation has come at a cost. Studies have shown that excessive use of social media is linked to anxiety, depression, and low self-esteem, especially among teenagers. The constant comparison with carefully curated lives can make people feel that their own lives are not good enough.",
+        "On the other hand, social media has also given voice to people who were previously ignored. Movements such as climate activism and mental health awareness have grown largely because of these platforms. The challenge, therefore, is not to reject technology but to use it consciously. As users, we need to ask ourselves whether we are controlling our screens or whether our screens are controlling us."
+      ],
+      "vocab": [
+        {
+          "en": "transformation",
+          "ar": "تحوّل"
+        },
+        {
+          "en": "curated",
+          "ar": "منسّق بعناية"
+        },
+        {
+          "en": "self-esteem",
+          "ar": "تقدير الذات"
+        },
+        {
+          "en": "awareness",
+          "ar": "وعي"
+        },
+        {
+          "en": "conscious",
+          "ar": "واعي"
+        },
+        {
+          "en": "reject",
+          "ar": "يرفض"
+        }
+      ]
+    },
+    {
+      "id": "b2_7",
+      "title": "A Memorable Failure",
+      "titleAr": "فشل لا يُنسى",
+      "paragraphs": [
+        "Failure is something most of us try to avoid, yet it is often our greatest teacher. I learned this lesson the hard way when I took part in a national science competition two years ago. I had spent three months preparing, and I was convinced that I would win.",
+        "When the results were announced, my name was not among the winners. I had come in fourth place — close, but not enough. I remember feeling devastated, and for a few days I avoided telling my family. I felt as if all my efforts had been wasted.",
+        "Looking back, however, I can see that the experience changed me for the better. I learned how to handle disappointment, how to keep working under pressure, and how to accept that effort does not always guarantee success. The following year, I entered the competition again, and this time I won. Without that first failure, I doubt I would have had the patience to improve."
+      ],
+      "vocab": [
+        {
+          "en": "failure",
+          "ar": "فشل"
+        },
+        {
+          "en": "convinced",
+          "ar": "مقتنع"
+        },
+        {
+          "en": "devastated",
+          "ar": "محطّم / منهار"
+        },
+        {
+          "en": "guarantee",
+          "ar": "يضمن"
+        },
+        {
+          "en": "handle",
+          "ar": "يتعامل مع"
+        },
+        {
+          "en": "disappointment",
+          "ar": "خيبة أمل"
+        }
+      ]
+    },
+    {
+      "id": "b2_8",
+      "title": "Tradition versus Modernity",
+      "titleAr": "التقليد في مواجهة الحداثة",
+      "paragraphs": [
+        "In many parts of the world, the debate between tradition and modernity continues to divide communities. While some people fear that modernisation will erase cultural identity, others believe that clinging to tradition prevents progress.",
+        "Consider, for example, the way weddings are celebrated in my region. In the past, they followed strict customs that often lasted for days. Today, many young couples prefer smaller, more personal ceremonies that reflect modern lifestyles. Some elders see this change as a loss; young people see it as freedom.",
+        "I believe the answer lies somewhere in between. Traditions are not museums; they should not be locked away and left untouched. They are living practices that can evolve while keeping their essence. A culture that refuses to adapt risks becoming irrelevant, but one that forgets its roots loses its soul. The goal should be to honour the past without being imprisoned by it."
+      ],
+      "vocab": [
+        {
+          "en": "modernity",
+          "ar": "حداثة"
+        },
+        {
+          "en": "identity",
+          "ar": "هوية"
+        },
+        {
+          "en": "custom",
+          "ar": "عادة / تقليد"
+        },
+        {
+          "en": "ceremony",
+          "ar": "حفل / مراسم"
+        },
+        {
+          "en": "essence",
+          "ar": "جوهر"
+        },
+        {
+          "en": "irrelevant",
+          "ar": "غير ذي صلة"
+        }
+      ]
+    },
+    {
+      "id": "b2_9",
+      "title": "The Power of Habits",
+      "titleAr": "قوة العادات",
+      "paragraphs": [
+        "Most of the choices we make every day are not decisions at all — they are habits. From the moment we wake up to the moment we go to sleep, our lives are guided by routines that we have built over years, often without noticing.",
+        "Psychologists say that habits are formed through a simple loop: cue, routine, reward. The brain, in its attempt to save energy, repeats patterns that once made us feel good. This is why it is so difficult to break bad habits and so easy to fall back into them.",
+        "The good news is that habits can be changed. Small adjustments, repeated consistently, can lead to big transformations over time. Reading five pages a day, walking for twenty minutes, or going to bed an hour earlier might seem insignificant, but their long-term impact can be extraordinary. In the end, we become what we repeatedly do."
+      ],
+      "vocab": [
+        {
+          "en": "habit",
+          "ar": "عادة"
+        },
+        {
+          "en": "routine",
+          "ar": "روتين"
+        },
+        {
+          "en": "cue",
+          "ar": "إشارة / مُحفِّز"
+        },
+        {
+          "en": "transformation",
+          "ar": "تحوّل"
+        },
+        {
+          "en": "consistent",
+          "ar": "ثابت / متّسق"
+        },
+        {
+          "en": "impact",
+          "ar": "تأثير"
+        }
+      ]
+    },
+    {
+      "id": "b2_10",
+      "title": "Volunteering Abroad",
+      "titleAr": "التطوّع في الخارج",
+      "paragraphs": [
+        "Last year, I spent six weeks volunteering in a small village in Morocco. The organisation I joined was building a school for children who had previously had to walk for hours to reach the nearest one. I had never done anything like it before, and I had no idea what to expect.",
+        "The work was harder than I imagined. The days were long, the heat was exhausting, and the language barrier made communication difficult. There were moments when I questioned whether I was actually helping or simply being a burden.",
+        "Looking back, however, I understand that volunteering taught me far more than it gave. I learned to appreciate the small things I usually take for granted, such as running water and a comfortable bed. I also learned that real change takes time and that showing up is sometimes more important than being perfect. The children, with their laughter and curiosity, reminded me why I had come in the first place."
+      ],
+      "vocab": [
+        {
+          "en": "volunteer",
+          "ar": "متطوّع"
+        },
+        {
+          "en": "organisation",
+          "ar": "منظمة"
+        },
+        {
+          "en": "barrier",
+          "ar": "حاجز"
+        },
+        {
+          "en": "burden",
+          "ar": "عبء"
+        },
+        {
+          "en": "appreciate",
+          "ar": "يُقدّر"
+        },
+        {
+          "en": "curiosity",
+          "ar": "فضول"
+        }
+      ]
+    }
+  ]
+}

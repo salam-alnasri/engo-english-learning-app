@@ -1,0 +1,366 @@
+{
+  "version": 1,
+  "level": "A2",
+  "items": [
+    {
+      "id": "a2_1",
+      "title": "At the Zoo",
+      "titleAr": "في حديقة الحيوانات",
+      "paragraphs": [
+        "Last Saturday, my family and I went to the zoo. It was a sunny day, so we took the bus. The zoo was very big and there were many people.",
+        "First, we saw the lions sleeping in the sun. Then we watched the monkeys. They were funny and jumped everywhere. My sister took many pictures of them.",
+        "After that, we ate lunch near the elephant house. The food was good but expensive. We had a great day at the zoo. I want to go again next month."
+      ],
+      "vocab": [
+        {
+          "en": "zoo",
+          "ar": "حديقة حيوانات"
+        },
+        {
+          "en": "lion",
+          "ar": "أسد"
+        },
+        {
+          "en": "monkey",
+          "ar": "قرد"
+        },
+        {
+          "en": "elephant",
+          "ar": "فيل"
+        },
+        {
+          "en": "expensive",
+          "ar": "غالي"
+        },
+        {
+          "en": "next month",
+          "ar": "الشهر القادم"
+        }
+      ]
+    },
+    {
+      "id": "a2_2",
+      "title": "My Weekend",
+      "titleAr": "عطلة نهاية الأسبوع",
+      "paragraphs": [
+        "On Friday evening, I stayed at home because it was raining outside. I watched a film on TV with my brother.",
+        "On Saturday morning, the sun came out, so we went to the mall with my friends. We bought new clothes and ate ice cream. I found a nice jacket for school.",
+        "On Sunday, I helped my mother clean the house. Then I did my homework and read a short story. I love weekends because I can relax and have fun."
+      ],
+      "vocab": [
+        {
+          "en": "weekend",
+          "ar": "عطلة نهاية الأسبوع"
+        },
+        {
+          "en": "rain",
+          "ar": "يمطر"
+        },
+        {
+          "en": "mall",
+          "ar": "مركز تسوق"
+        },
+        {
+          "en": "jacket",
+          "ar": "سترة"
+        },
+        {
+          "en": "relax",
+          "ar": "يرتاح"
+        },
+        {
+          "en": "fun",
+          "ar": "متعة"
+        }
+      ]
+    },
+    {
+      "id": "a2_3",
+      "title": "My Holiday in Turkey",
+      "titleAr": "عطلتي في تركيا",
+      "paragraphs": [
+        "Last summer, my family and I went to Turkey for a holiday. We stayed in a small hotel near the sea. The weather was hot and sunny every day.",
+        "We visited many old places and beautiful mosques. I liked Istanbul because it was very different from my city. We ate delicious food and took many photos.",
+        "The holiday was short but wonderful. We came back home after one week. I want to visit Turkey again next year because I really enjoyed it."
+      ],
+      "vocab": [
+        {
+          "en": "holiday",
+          "ar": "عطلة"
+        },
+        {
+          "en": "hotel",
+          "ar": "فندق"
+        },
+        {
+          "en": "weather",
+          "ar": "طقس"
+        },
+        {
+          "en": "different",
+          "ar": "مختلف"
+        },
+        {
+          "en": "delicious",
+          "ar": "لذيذ"
+        },
+        {
+          "en": "wonderful",
+          "ar": "رائع"
+        }
+      ]
+    },
+    {
+      "id": "a2_4",
+      "title": "My New School",
+      "titleAr": "مدرستي الجديدة",
+      "paragraphs": [
+        "I started a new school in September. On the first day, I was a little nervous because I did not know anyone. My new teacher was kind and she helped me.",
+        "After a few days, I made new friends in my class. We sit together at lunch and play games after school. My favourite subject is science because it is interesting.",
+        "Now I like my new school. Every morning, I wake up early and go there happily. The best thing is that my best friend is in the same class."
+      ],
+      "vocab": [
+        {
+          "en": "nervous",
+          "ar": "متوتر"
+        },
+        {
+          "en": "anyone",
+          "ar": "أي شخص"
+        },
+        {
+          "en": "subject",
+          "ar": "مادة دراسية"
+        },
+        {
+          "en": "science",
+          "ar": "علوم"
+        },
+        {
+          "en": "interesting",
+          "ar": "مثير للاهتمام"
+        },
+        {
+          "en": "happily",
+          "ar": "بفرح"
+        }
+      ]
+    },
+    {
+      "id": "a2_5",
+      "title": "Cooking with My Mother",
+      "titleAr": "الطبخ مع أمي",
+      "paragraphs": [
+        "Yesterday, my mother taught me how to make a cake. First, we bought flour, sugar, eggs and butter from the supermarket. I was very excited because I had never cooked before.",
+        "My mother showed me each step carefully. I mixed everything in a big bowl and put it in the oven. After one hour, the cake was ready and it smelled wonderful.",
+        "We ate the cake after dinner with my family. They said it was delicious! I felt happy because I made something for my family. I want to cook again next week."
+      ],
+      "vocab": [
+        {
+          "en": "flour",
+          "ar": "دقيق"
+        },
+        {
+          "en": "sugar",
+          "ar": "سكر"
+        },
+        {
+          "en": "butter",
+          "ar": "زبدة"
+        },
+        {
+          "en": "bowl",
+          "ar": "وعاء"
+        },
+        {
+          "en": "oven",
+          "ar": "فرن"
+        },
+        {
+          "en": "smell",
+          "ar": "رائحة"
+        }
+      ]
+    },
+    {
+      "id": "a2_6",
+      "title": "My Grandfather's Farm",
+      "titleAr": "مزرعة جدي",
+      "paragraphs": [
+        "Every summer, I visit my grandfather's farm in the countryside. The farm is far from the city, so we drive for two hours. I love it because it is quiet and green.",
+        "On the farm, there are chickens, cows and two horses. I help my grandfather feed the animals every morning. In the afternoon, I ride the small horse and play in the fields.",
+        "At night, we sit outside and look at the stars. The air is fresh and clean. I always feel happy there. It is my favourite place in the world."
+      ],
+      "vocab": [
+        {
+          "en": "farm",
+          "ar": "مزرعة"
+        },
+        {
+          "en": "countryside",
+          "ar": "ريف"
+        },
+        {
+          "en": "chicken",
+          "ar": "دجاجة"
+        },
+        {
+          "en": "horse",
+          "ar": "حصان"
+        },
+        {
+          "en": "feed",
+          "ar": "يطعم"
+        },
+        {
+          "en": "star",
+          "ar": "نجمة"
+        }
+      ]
+    },
+    {
+      "id": "a2_7",
+      "title": "Lost in the City",
+      "titleAr": "ضاعت في المدينة",
+      "paragraphs": [
+        "Last month, I went shopping with my cousin. The streets were very crowded, so we walked slowly and held hands. Suddenly, I could not find her!",
+        "I was scared because I did not know the area. I looked for her for ten minutes. Then I called my mother and she told me to wait near a big shop.",
+        "After fifteen minutes, my cousin found me. She was looking for me too. We were both tired but happy. That day, I learned that I must always tell my mother where I am."
+      ],
+      "vocab": [
+        {
+          "en": "crowded",
+          "ar": "مزدحم"
+        },
+        {
+          "en": "suddenly",
+          "ar": "فجأة"
+        },
+        {
+          "en": "scared",
+          "ar": "خائف"
+        },
+        {
+          "en": "wait",
+          "ar": "ينتظر"
+        },
+        {
+          "en": "learn",
+          "ar": "يتعلم"
+        },
+        {
+          "en": "must",
+          "ar": "يجب"
+        }
+      ]
+    },
+    {
+      "id": "a2_8",
+      "title": "My First English Lesson",
+      "titleAr": "أول درس إنجليزي لي",
+      "paragraphs": [
+        "I started learning English two years ago. At first, it was difficult because I did not know any English words. My teacher spoke slowly and she was very patient.",
+        "Now, I can read simple stories and write short sentences. I also learned many new words. My favourite part is speaking because I like talking to people from other countries.",
+        "Last week, I spoke English with a tourist in my city. He was surprised and happy! I felt proud of myself. I want to learn more English every day."
+      ],
+      "vocab": [
+        {
+          "en": "difficult",
+          "ar": "صعب"
+        },
+        {
+          "en": "patient",
+          "ar": "صبور"
+        },
+        {
+          "en": "sentence",
+          "ar": "جملة"
+        },
+        {
+          "en": "tourist",
+          "ar": "سائح"
+        },
+        {
+          "en": "proud",
+          "ar": "فخور"
+        },
+        {
+          "en": "every day",
+          "ar": "كل يوم"
+        }
+      ]
+    },
+    {
+      "id": "a2_9",
+      "title": "A Rainy Day",
+      "titleAr": "يوم ماطر",
+      "paragraphs": [
+        "Last Friday, it rained all day. I could not go outside, so I stayed home and watched the rain from my window. The streets were wet and empty.",
+        "In the afternoon, my sister and I made hot chocolate and played board games. We laughed a lot and had a great time together. My father read a book near the fireplace.",
+        "In the evening, the rain stopped and we saw a beautiful rainbow in the sky. It was a wonderful day, even though we did not leave the house. Sometimes, rainy days are the best days."
+      ],
+      "vocab": [
+        {
+          "en": "rain",
+          "ar": "مطر"
+        },
+        {
+          "en": "window",
+          "ar": "نافذة"
+        },
+        {
+          "en": "wet",
+          "ar": "مبلل"
+        },
+        {
+          "en": "empty",
+          "ar": "فارغ"
+        },
+        {
+          "en": "fireplace",
+          "ar": "موقد"
+        },
+        {
+          "en": "rainbow",
+          "ar": "قوس قزح"
+        }
+      ]
+    },
+    {
+      "id": "a2_10",
+      "title": "My Best Friend's Party",
+      "titleAr": "حفلة صديقتي المفضلة",
+      "paragraphs": [
+        "Last Saturday, my best friend Nour had a birthday party. She invited ten friends to her house. Her mother made a beautiful cake and we ate pizza and sweets.",
+        "We played many games and danced to music. I gave Nour a red notebook because she loves writing. She was very happy and she hugged me.",
+        "The party ended at ten o'clock. I was tired but also happy. It was one of the best days of my life. I will never forget it."
+      ],
+      "vocab": [
+        {
+          "en": "invite",
+          "ar": "يدعو"
+        },
+        {
+          "en": "dance",
+          "ar": "يرقص"
+        },
+        {
+          "en": "music",
+          "ar": "موسيقى"
+        },
+        {
+          "en": "notebook",
+          "ar": "دفتر"
+        },
+        {
+          "en": "hug",
+          "ar": "يعانق"
+        },
+        {
+          "en": "forget",
+          "ar": "ينسى"
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-package com.example.engo
+package com.yourname.engo
 
 import io.flutter.embedding.android.FlutterActivity
 

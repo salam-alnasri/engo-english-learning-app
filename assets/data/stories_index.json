@@ -1,0 +1,347 @@
+{
+  "version": 1,
+  "levels": [
+    {
+      "level": "A1",
+      "file": "a1_stories.json",
+      "count": 10,
+      "stories": [
+        {
+          "id": "a1_1",
+          "title": "My Pet",
+          "titleAr": "حيواني الأليف"
+        },
+        {
+          "id": "a1_2",
+          "title": "My Favourite Food",
+          "titleAr": "طعامي المفضل"
+        },
+        {
+          "id": "a1_3",
+          "title": "My Best Friend",
+          "titleAr": "صديقي المفضل"
+        },
+        {
+          "id": "a1_4",
+          "title": "At the Park",
+          "titleAr": "في الحديقة"
+        },
+        {
+          "id": "a1_5",
+          "title": "My Birthday",
+          "titleAr": "عيد ميلادي"
+        },
+        {
+          "id": "a1_6",
+          "title": "My Room",
+          "titleAr": "غرفتي"
+        },
+        {
+          "id": "a1_7",
+          "title": "My Day",
+          "titleAr": "يومي"
+        },
+        {
+          "id": "a1_8",
+          "title": "At the Beach",
+          "titleAr": "على الشاطئ"
+        },
+        {
+          "id": "a1_9",
+          "title": "My Favourite Colour",
+          "titleAr": "لوني المفضل"
+        },
+        {
+          "id": "a1_10",
+          "title": "My Big Family",
+          "titleAr": "عائلتي الكبيرة"
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "file": "a2_stories.json",
+      "count": 10,
+      "stories": [
+        {
+          "id": "a2_1",
+          "title": "At the Zoo",
+          "titleAr": "في حديقة الحيوانات"
+        },
+        {
+          "id": "a2_2",
+          "title": "My Weekend",
+          "titleAr": "عطلة نهاية الأسبوع"
+        },
+        {
+          "id": "a2_3",
+          "title": "My Holiday in Turkey",
+          "titleAr": "عطلتي في تركيا"
+        },
+        {
+          "id": "a2_4",
+          "title": "My New School",
+          "titleAr": "مدرستي الجديدة"
+        },
+        {
+          "id": "a2_5",
+          "title": "Cooking with My Mother",
+          "titleAr": "الطبخ مع أمي"
+        },
+        {
+          "id": "a2_6",
+          "title": "My Grandfather's Farm",
+          "titleAr": "مزرعة جدي"
+        },
+        {
+          "id": "a2_7",
+          "title": "Lost in the City",
+          "titleAr": "ضاعت في المدينة"
+        },
+        {
+          "id": "a2_8",
+          "title": "My First English Lesson",
+          "titleAr": "أول درس إنجليزي لي"
+        },
+        {
+          "id": "a2_9",
+          "title": "A Rainy Day",
+          "titleAr": "يوم ماطر"
+        },
+        {
+          "id": "a2_10",
+          "title": "My Best Friend's Party",
+          "titleAr": "حفلة صديقتي المفضلة"
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "file": "b1_stories.json",
+      "count": 10,
+      "stories": [
+        {
+          "id": "b1_1",
+          "title": "A Trip I Will Never Forget",
+          "titleAr": "رحلة لن أنساها"
+        },
+        {
+          "id": "b1_2",
+          "title": "My First Job Experience",
+          "titleAr": "تجربة عملي الأولى"
+        },
+        {
+          "id": "b1_3",
+          "title": "Technology in Our Lives",
+          "titleAr": "التكنولوجيا في حياتنا"
+        },
+        {
+          "id": "b1_4",
+          "title": "A Difficult Decision",
+          "titleAr": "قرار صعب"
+        },
+        {
+          "id": "b1_5",
+          "title": "Moving to a New City",
+          "titleAr": "الانتقال إلى مدينة جديدة"
+        },
+        {
+          "id": "b1_6",
+          "title": "Learning a New Skill",
+          "titleAr": "تعلّم مهارة جديدة"
+        },
+        {
+          "id": "b1_7",
+          "title": "A Cultural Experience",
+          "titleAr": "تجربة ثقافية"
+        },
+        {
+          "id": "b1_8",
+          "title": "The Importance of Reading",
+          "titleAr": "أهمية القراءة"
+        },
+        {
+          "id": "b1_9",
+          "title": "A Teacher Who Changed My Life",
+          "titleAr": "معلّمة غيّرت حياتي"
+        },
+        {
+          "id": "b1_10",
+          "title": "Planning for the Future",
+          "titleAr": "التخطيط للمستقبل"
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "file": "b2_stories.json",
+      "count": 10,
+      "stories": [
+        {
+          "id": "b2_1",
+          "title": "The Generation Gap",
+          "titleAr": "الفجوة بين الأجيال"
+        },
+        {
+          "id": "b2_2",
+          "title": "Working from Home",
+          "titleAr": "العمل من المنزل"
+        },
+        {
+          "id": "b2_3",
+          "title": "The True Value of Education",
+          "titleAr": "القيمة الحقيقية للتعليم"
+        },
+        {
+          "id": "b2_4",
+          "title": "A Story of Cultural Shock",
+          "titleAr": "قصة صدمة ثقافية"
+        },
+        {
+          "id": "b2_5",
+          "title": "Environmental Responsibility",
+          "titleAr": "المسؤولية البيئية"
+        },
+        {
+          "id": "b2_6",
+          "title": "The Influence of Social Media",
+          "titleAr": "تأثير وسائل التواصل الاجتماعي"
+        },
+        {
+          "id": "b2_7",
+          "title": "A Memorable Failure",
+          "titleAr": "فشل لا يُنسى"
+        },
+        {
+          "id": "b2_8",
+          "title": "Tradition versus Modernity",
+          "titleAr": "التقليد في مواجهة الحداثة"
+        },
+        {
+          "id": "b2_9",
+          "title": "The Power of Habits",
+          "titleAr": "قوة العادات"
+        },
+        {
+          "id": "b2_10",
+          "title": "Volunteering Abroad",
+          "titleAr": "التطوّع في الخارج"
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "file": "c1_stories.json",
+      "count": 10,
+      "stories": [
+        {
+          "id": "c1_1",
+          "title": "The Paradox of Choice",
+          "titleAr": "مفارقة الخيارات"
+        },
+        {
+          "id": "c1_2",
+          "title": "The Illusion of Free Will",
+          "titleAr": "وهم الإرادة الحرة"
+        },
+        {
+          "id": "c1_3",
+          "title": "Cultural Appreciation or Appropriation?",
+          "titleAr": "تقدير ثقافي أم استيلاء ثقافي؟"
+        },
+        {
+          "id": "c1_4",
+          "title": "The Ethics of Artificial Intelligence",
+          "titleAr": "أخلاقيات الذكاء الاصطناعي"
+        },
+        {
+          "id": "c1_5",
+          "title": "Slow Living in a Fast World",
+          "titleAr": "الحياة البطيئة في عالم سريع"
+        },
+        {
+          "id": "c1_6",
+          "title": "The Death of Privacy",
+          "titleAr": "موت الخصوصية"
+        },
+        {
+          "id": "c1_7",
+          "title": "Migration and Identity",
+          "titleAr": "الهجرة والهوية"
+        },
+        {
+          "id": "c1_8",
+          "title": "The Commodification of Happiness",
+          "titleAr": "تسليع السعادة"
+        },
+        {
+          "id": "c1_9",
+          "title": "Why We Resist Change",
+          "titleAr": "لماذا نقاوم التغيير"
+        },
+        {
+          "id": "c1_10",
+          "title": "The Stories We Tell Ourselves",
+          "titleAr": "القصص التي نرويها لأنفسنا"
+        }
+      ]
+    },
+    {
+      "level": "C2",
+      "file": "c2_stories.json",
+      "count": 10,
+      "stories": [
+        {
+          "id": "c2_1",
+          "title": "The Tyranny of Authenticity",
+          "titleAr": "استبداد الأصالة"
+        },
+        {
+          "id": "c2_2",
+          "title": "Solitude and the Art of Being Alone",
+          "titleAr": "العزلة وفنّ أن تكون وحيداً"
+        },
+        {
+          "id": "c2_3",
+          "title": "On the Uses of Adversity",
+          "titleAr": "في منافع الشدّة"
+        },
+        {
+          "id": "c2_4",
+          "title": "The Architecture of Memory",
+          "titleAr": "هندسة الذاكرة"
+        },
+        {
+          "id": "c2_5",
+          "title": "Post-Truth and the Erosion of Trust",
+          "titleAr": "ما بعد الحقيقة وتآكل الثقة"
+        },
+        {
+          "id": "c2_6",
+          "title": "The Aesthetic of Imperfection",
+          "titleAr": "جماليات النقص"
+        },
+        {
+          "id": "c2_7",
+          "title": "On Patience as a Political Virtue",
+          "titleAr": "الصبر بوصفه فضيلة سياسية"
+        },
+        {
+          "id": "c2_8",
+          "title": "The Cartography of Belonging",
+          "titleAr": "جغرافيا الانتماء"
+        },
+        {
+          "id": "c2_9",
+          "title": "Mourning in a Modern Key",
+          "titleAr": "الحزن في سلم حديث"
+        },
+        {
+          "id": "c2_10",
+          "title": "The Quotidian as Sacred",
+          "titleAr": "اليوميّ بوصفه مقدّساً"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "version": 1,
+  "level": "C1",
+  "items": [
+    {
+      "id": "c1_1",
+      "title": "The Paradox of Choice",
+      "titleAr": "مفارقة الخيارات",
+      "paragraphs": [
+        "In his book The Paradox of Choice, Barry Schwartz argues that having too many options can actually make us less happy. As someone who grew up in a modest household, this idea initially struck me as absurd. Were abundance not a blessing? I could not have been more wrong.",
+        "When I moved abroad for university, I was suddenly confronted with supermarkets stocked with fifty types of cereal, streaming platforms offering thousands of shows, and degree programmes with seemingly endless specialisations. Instead of feeling empowered, I felt paralysed. Every choice I made came with the nagging suspicion that I had missed out on a better one.",
+        "What I have come to value is not having more choices, but having the wisdom to limit them. Whether it is the clothes I buy, the books I read, or the commitments I take on, I now actively narrow my options. Far from feeling restricted, I feel liberated. As Schwartz puts it, learning to choose well is, in many ways, a discipline of subtracting rather than adding."
+      ],
+      "vocab": [
+        {
+          "en": "abundance",
+          "ar": "وفرة"
+        },
+        {
+          "en": "paralysed",
+          "ar": "عاجز / مشلول"
+        },
+        {
+          "en": "empowered",
+          "ar": "مُمكَّن"
+        },
+        {
+          "en": "suspicion",
+          "ar": "شك"
+        },
+        {
+          "en": "liberating",
+          "ar": "مُحرِّر"
+        },
+        {
+          "en": "subtracting",
+          "ar": "طرح / تنقيص"
+        }
+      ]
+    },
+    {
+      "id": "c1_2",
+      "title": "The Illusion of Free Will",
+      "titleAr": "وهم الإرادة الحرة",
+      "paragraphs": [
+        "The question of whether we truly possess free will has occupied philosophers for centuries, and it is one that I find myself returning to time and again. On the surface, it seems obvious that we make our own decisions. Yet, the more I learn about neuroscience, the less certain I become.",
+        "Studies have shown that our brains make many decisions seconds before we become consciously aware of them. If that is the case, what exactly is the \"self\" that supposedly does the choosing? Some scientists argue that what we call free will is little more than a story the brain tells itself to make sense of its own behaviour.",
+        "Does this mean we should stop holding people accountable for their actions? I do not think so. Whether or not free will exists in some metaphysical sense, the belief that we can shape our future is what motivates us to try. What I take from these debates is humility: certainty, in this area as in so many others, is rarely wise."
+      ],
+      "vocab": [
+        {
+          "en": "occupy",
+          "ar": "يشغل"
+        },
+        {
+          "en": "neuroscientist",
+          "ar": "عالم أعصاب"
+        },
+        {
+          "en": "consciously",
+          "ar": "بوعي"
+        },
+        {
+          "en": "metaphysical",
+          "ar": "ميتافيزيقي"
+        },
+        {
+          "en": "accountability",
+          "ar": "محاسبة"
+        },
+        {
+          "en": "humility",
+          "ar": "تواضع"
+        }
+      ]
+    },
+    {
+      "id": "c1_3",
+      "title": "Cultural Appreciation or Appropriation?",
+      "titleAr": "تقدير ثقافي أم استيلاء ثقافي؟",
+      "paragraphs": [
+        "Few debates in contemporary society are as polarising as the one surrounding cultural appropriation. To some, wearing a kimono, dreadlocks, or a sari outside their original context is a celebration of diversity. To others, it is a form of disrespect that strips minority cultures of their meaning.",
+        "What often gets lost in the shouting match is the distinction between appreciation and appropriation. Appreciation, in my view, involves genuine curiosity, learning, and credit. Appropriation, by contrast, involves taking something aesthetically pleasing while ignoring the history, pain, or marginalisation behind it.",
+        "It is not my intention to draw hard lines where none exist, nor to turn every outfit into a political statement. But I have become far more thoughtful about the symbols I wear and the traditions I borrow. Were I to attend a friend's traditional wedding tomorrow, I would certainly ask rather than assume. Sensitivity, after all, costs very little and means a great deal."
+      ],
+      "vocab": [
+        {
+          "en": "polarising",
+          "ar": "استقطابي"
+        },
+        {
+          "en": "marginalisation",
+          "ar": "تهميش"
+        },
+        {
+          "en": "distinction",
+          "ar": "تمييز"
+        },
+        {
+          "en": "aesthetic",
+          "ar": "جمالي"
+        },
+        {
+          "en": "sensitivity",
+          "ar": "حساسية"
+        },
+        {
+          "en": "shouting match",
+          "ar": "جدال صاخب"
+        }
+      ]
+    },
+    {
+      "id": "c1_4",
+      "title": "The Ethics of Artificial Intelligence",
+      "titleAr": "أخلاقيات الذكاء الاصطناعي",
+      "paragraphs": [
+        "As artificial intelligence increasingly mediates everything from job applications to medical diagnoses, the ethical questions it raises can no longer be ignored. What happens, for instance, when an algorithm denies someone a loan, and they cannot understand why? When a self-driving car faces an unavoidable accident, whose life should it prioritise?",
+        "These are not abstract dilemmas confined to laboratories. They affect real people every day, often without their knowledge. What troubles me most is not the technology itself, but the opacity with which it is deployed. Decisions once made by humans, with all their flaws, are now being outsourced to systems whose reasoning is, in many cases, invisible even to their creators.",
+        "I am not opposed to progress. What I do advocate for is transparency, accountability, and a seat at the table for the people whose lives are shaped by these tools. Were we to treat AI purely as a productivity booster, we would risk losing something far more valuable: our collective capacity for moral judgement."
+      ],
+      "vocab": [
+        {
+          "en": "dilemma",
+          "ar": "مأزق"
+        },
+        {
+          "en": "opacity",
+          "ar": "غموض"
+        },
+        {
+          "en": "deploy",
+          "ar": "يُطبَّق / يُنشَر"
+        },
+        {
+          "en": "accountability",
+          "ar": "محاسبة"
+        },
+        {
+          "en": "mediate",
+          "ar": "يتوسّط"
+        },
+        {
+          "en": "outsource",
+          "ar": "يسند للخارج"
+        }
+      ]
+    },
+    {
+      "id": "c1_5",
+      "title": "Slow Living in a Fast World",
+      "titleAr": "الحياة البطيئة في عالم سريع",
+      "paragraphs": [
+        "It is no exaggeration to say that modern life has become an arms race against the clock. We squeeze workouts into lunch breaks, answer emails in bed, and brag about being \"so busy\" as if exhaustion were a badge of honour. Not long ago, I was one of these people — until a bout of burnout forced me to reconsider everything.",
+        "What followed was not a sudden epiphany but a quiet, deliberate shift. I began waking up an hour earlier not to be more productive, but to read fiction. I replaced half my meetings with walks. I started cooking meals that took hours rather than minutes. To my surprise, my work did not suffer; if anything, it improved.",
+        "What I have come to appreciate is that slowness is not the opposite of ambition, but its quiet ally. It is in stillness that ideas surface, that relationships deepen, and that we remember why we are doing any of this in the first place. Were I to leave you with one thought, it would be this: a life constantly in motion is not necessarily a life fully lived."
+      ],
+      "vocab": [
+        {
+          "en": "exhaustion",
+          "ar": "إنهاك"
+        },
+        {
+          "en": "epiphany",
+          "ar": "إدراك مفاجئ"
+        },
+        {
+          "en": "deliberate",
+          "ar": "مدروس / متعمَّد"
+        },
+        {
+          "en": "ally",
+          "ar": "حليف"
+        },
+        {
+          "en": "stillness",
+          "ar": "سكون"
+        },
+        {
+          "en": "surface",
+          "ar": "يظهر / يطفو"
+        }
+      ]
+    },
+    {
+      "id": "c1_6",
+      "title": "The Death of Privacy",
+      "titleAr": "موت الخصوصية",
+      "paragraphs": [
+        "It is often said that privacy is dead, killed by social media, smartphones, and surveillance capitalism. The statement is dramatic, but the underlying trend is hard to deny. Every search, every location check-in, every \"accept cookies\" click contributes to a portrait of who we are — a portrait we did not commission and cannot easily revoke.",
+        "What concerns me is not the existence of data collection, but the casualness with which we have agreed to it. We trade intimate details of our lives for free email accounts and slightly cheaper flights. We click \"I agree\" on terms we have never read, and we shrug when news breaks of yet another leak.",
+        "It would be naïve to pretend that one can opt out entirely. Yet small acts of resistance still matter: using encrypted messaging, adjusting permissions, questioning default settings. Not because we have something to hide, but because the right to be let alone is, as Justice Brandeis once wrote, the most comprehensive of rights and the one most valued by civilised people."
+      ],
+      "vocab": [
+        {
+          "en": "surveillance",
+          "ar": "مراقبة"
+        },
+        {
+          "en": "portrait",
+          "ar": "صورة"
+        },
+        {
+          "en": "revoke",
+          "ar": "يسحب / يُلغي"
+        },
+        {
+          "en": "commission",
+          "ar": "يُكلِّف"
+        },
+        {
+          "en": "encrypted",
+          "ar": "مشفَّر"
+        },
+        {
+          "en": "comprehensive",
+          "ar": "شامل"
+        }
+      ]
+    },
+    {
+      "id": "c1_7",
+      "title": "Migration and Identity",
+      "titleAr": "الهجرة والهوية",
+      "paragraphs": [
+        "Having moved between three countries before my twentieth birthday, I have spent much of my life trying to answer a deceptively simple question: where am I from? The answer, like the experience itself, is layered and at times contradictory. Each place shaped me, and yet none of them contains the whole of me.",
+        "Migration has given me gifts I could not have imagined as a child: fluency in more than one language, an instinctive curiosity about other cultures, and the ability to adapt quickly to unfamiliar situations. It has also taken things away — the comfort of a fixed friend group, the ease of returning to a place that everyone knows.",
+        "What I have come to understand is that identity is not something one carries in a suitcase; it is something one builds, brick by brick, wherever one happens to be. Were I to be defined by a single flag, I would feel diminished. What I am, more accurately, is a product of the spaces between — and it is there, in those in-between places, that I feel most at home."
+      ],
+      "vocab": [
+        {
+          "en": "deceptively",
+          "ar": "بشكل خادع"
+        },
+        {
+          "en": "layered",
+          "ar": "متعدد الطبقات"
+        },
+        {
+          "en": "contradictory",
+          "ar": "متناقض"
+        },
+        {
+          "en": "instinctive",
+          "ar": "غريزي"
+        },
+        {
+          "en": "diminished",
+          "ar": "مُنتقَص"
+        },
+        {
+          "en": "brick by brick",
+          "ar": "طوبة طوبة"
+        }
+      ]
+    },
+    {
+      "id": "c1_8",
+      "title": "The Commodification of Happiness",
+      "titleAr": "تسليع السعادة",
+      "paragraphs": [
+        "A decade ago, mindfulness apps, gratitude journals, and self-care retreats were niche interests. Today, they are billion-dollar industries. Happiness, it seems, has been packaged, marketed, and sold back to us — and nowhere is this more visible than in the relentless positivity of social media.",
+        "It would be unfair to dismiss these tools entirely. Many people genuinely find comfort in meditation, journaling, or therapy. The issue, in my view, is not the pursuit of happiness itself, but the idea that it can be bought, optimised, and quickly delivered. Real contentment tends to be messier, slower, and far less photogenic than the wellness industry would have us believe.",
+        "What I find more sustaining is the unfashionable notion that happiness is a by-product of meaning. When I spend my time on relationships, learning, and small acts of contribution, joy tends to appear uninvited at the door. The economist Richard Easterlin once observed that beyond a certain income level, more money buys very little extra happiness. The same, I suspect, is true of more self-care products."
+      ],
+      "vocab": [
+        {
+          "en": "commodification",
+          "ar": "تسليع"
+        },
+        {
+          "en": "niche",
+          "ar": "هامشي / متخصص"
+        },
+        {
+          "en": "relentless",
+          "ar": "لا يرحم"
+        },
+        {
+          "en": "dismiss",
+          "ar": "يتجاهل"
+        },
+        {
+          "en": "by-product",
+          "ar": "نتيجة ثانوية"
+        },
+        {
+          "en": "sustaining",
+          "ar": "مُغذٍّ / مُدعِّم"
+        }
+      ]
+    },
+    {
+      "id": "c1_9",
+      "title": "Why We Resist Change",
+      "titleAr": "لماذا نقاوم التغيير",
+      "paragraphs": [
+        "There is a well-known saying: people do not resist change; they resist being changed. I used to find this observation cynical. Now, after years of working on projects that required colleagues to rethink long-held habits, I find it painfully accurate.",
+        "What we call resistance is rarely laziness or ignorance. More often, it is fear wearing a different costume — fear of incompetence in the new system, fear of losing status, fear of admitting that the way we used to do things might not have been best. Acknowledging this has made me a far more patient colleague than I used to be.",
+        "What has surprised me, however, is how quickly resistance can melt once people feel genuinely heard. A few months ago, my team was asked to adopt a new workflow. I expected a revolt. Instead, after two long meetings in which everyone was invited to complain freely, implementation went smoothly. The lesson, it seems, is not that change is hard — it is that being changed without consultation is what most of us cannot bear."
+      ],
+      "vocab": [
+        {
+          "en": "cynical",
+          "ar": "ساخر / متشائم"
+        },
+        {
+          "en": "incompetence",
+          "ar": "عدم كفاءة"
+        },
+        {
+          "en": "costume",
+          "ar": "زي / قناع"
+        },
+        {
+          "en": "status",
+          "ar": "مكانة"
+        },
+        {
+          "en": "consultation",
+          "ar": "تشاور"
+        },
+        {
+          "en": "revolt",
+          "ar": "تمرد"
+        }
+      ]
+    },
+    {
+      "id": "c1_10",
+      "title": "The Stories We Tell Ourselves",
+      "titleAr": "القصص التي نرويها لأنفسنا",
+      "paragraphs": [
+        "Of all the things I have learned in my thirties, perhaps the most useful is this: the story I tell myself about an event matters more, in the long run, than the event itself. The same redundancy can feel like a liberating release or a personal failure, depending on whether I frame it as \"I was let go\" or \"I finally got the time I needed.\"",
+        "This is not, I should emphasise, an argument for denying reality or for toxic positivity. Painful things remain painful. But the meaning we attach to them is, to a remarkable degree, within our control. Psychologists call it cognitive reframing; philosophers have called it the art of interpretation. Whatever the label, it is, in my experience, one of the most powerful tools we possess.",
+        "What I try to practise now is a small pause before reacting — a moment in which I ask myself: \"Is there another way to read this?\" More often than not, there is. It is in those moments that we discover not what happened to us, but who we are choosing to become."
+      ],
+      "vocab": [
+        {
+          "en": "redundancy",
+          "ar": "استغناء عن وظيفة"
+        },
+        {
+          "en": "toxic positivity",
+          "ar": "إيجابية سامة"
+        },
+        {
+          "en": "cognitive reframing",
+          "ar": "إعادة تأطير معرفي"
+        },
+        {
+          "en": "interpretation",
+          "ar": "تفسير"
+        },
+        {
+          "en": "remarkable",
+          "ar": "لافت / ملحوظ"
+        },
+        {
+          "en": "frame",
+          "ar": "يُؤطِّر / يُصوِّر"
+        }
+      ]
+    }
+  ]
+}

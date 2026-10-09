@@ -1,0 +1,366 @@
+{
+  "version": 1,
+  "level": "B1",
+  "items": [
+    {
+      "id": "b1_1",
+      "title": "A Trip I Will Never Forget",
+      "titleAr": "رحلة لن أنساها",
+      "paragraphs": [
+        "Three years ago, I went on a trip to the south of my country with my university friends. We had been planning it for months, and finally the day came. The drive took about five hours, but we did not feel tired because we were talking and laughing the whole time.",
+        "When we arrived, the landscape was breathtaking. There were mountains, green valleys, and a small village by the river. We spent the first day walking around and taking photos. In the evening, we sat around a fire and told stories.",
+        "The next morning, I woke up early to watch the sunrise. It was the most beautiful view I had ever seen. I felt completely at peace. That trip changed the way I see life, and I will never forget it."
+      ],
+      "vocab": [
+        {
+          "en": "breathtaking",
+          "ar": "مهيب / خلّاب"
+        },
+        {
+          "en": "landscape",
+          "ar": "منظر طبيعي"
+        },
+        {
+          "en": "valley",
+          "ar": "وادٍ"
+        },
+        {
+          "en": "peaceful",
+          "ar": "هادئ ومسالم"
+        },
+        {
+          "en": "unforgettable",
+          "ar": "لا يُنسى"
+        },
+        {
+          "en": "sunrise",
+          "ar": "شروق الشمس"
+        }
+      ]
+    },
+    {
+      "id": "b1_2",
+      "title": "My First Job Experience",
+      "titleAr": "تجربة عملي الأولى",
+      "paragraphs": [
+        "Last summer, I had my first real job at a small café near my house. I was a bit nervous at first because I had never worked before. My manager was kind, and she trained me for three days before letting me work alone.",
+        "My duties included taking orders, serving customers, and cleaning the tables. The job was not difficult, but it required patience, especially during busy hours. I learned how to communicate with different kinds of people and how to stay calm under pressure.",
+        "After two months, I realized how much I had grown. I became more confident and responsible. The money I earned helped me buy a new laptop, which I had wanted for a long time. It was a short experience, but a very important one."
+      ],
+      "vocab": [
+        {
+          "en": "manager",
+          "ar": "مدير"
+        },
+        {
+          "en": "train",
+          "ar": "يُدرّب"
+        },
+        {
+          "en": "serve",
+          "ar": "يخدم"
+        },
+        {
+          "en": "customer",
+          "ar": "زبون"
+        },
+        {
+          "en": "patient",
+          "ar": "صبور"
+        },
+        {
+          "en": "pressure",
+          "ar": "ضغط"
+        }
+      ]
+    },
+    {
+      "id": "b1_3",
+      "title": "Technology in Our Lives",
+      "titleAr": "التكنولوجيا في حياتنا",
+      "paragraphs": [
+        "These days, technology plays a huge role in our daily lives. Most people use smartphones, laptops, and social media every day. While technology has made many things easier, it has also created new problems.",
+        "On the positive side, we can communicate with friends and family around the world instantly. We can also learn almost anything online, from cooking to programming. During the pandemic, technology helped millions of students continue their education.",
+        "On the negative side, many people spend too much time on screens and less time with their families. Some studies show that heavy use of social media can cause anxiety and sleep problems. In my opinion, balance is the key. Technology is a tool, and we should learn to use it wisely."
+      ],
+      "vocab": [
+        {
+          "en": "technology",
+          "ar": "تكنولوجيا"
+        },
+        {
+          "en": "instantly",
+          "ar": "فوراً"
+        },
+        {
+          "en": "anxiety",
+          "ar": "قلق"
+        },
+        {
+          "en": "balance",
+          "ar": "توازن"
+        },
+        {
+          "en": "wisely",
+          "ar": "بحكمة"
+        },
+        {
+          "en": "tool",
+          "ar": "أداة"
+        }
+      ]
+    },
+    {
+      "id": "b1_4",
+      "title": "A Difficult Decision",
+      "titleAr": "قرار صعب",
+      "paragraphs": [
+        "When I finished high school, I had to make a difficult decision about my future. My father wanted me to study engineering, but I was more interested in literature and writing. We had several long discussions about it.",
+        "At first, I did not want to disappoint him, so I almost agreed. However, I knew deep inside that I would not be happy studying something I did not enjoy. After thinking for weeks, I decided to follow my heart.",
+        "I told my father honestly how I felt. To my surprise, he listened carefully and understood. He said that what matters most is choosing a path that makes me happy. That conversation changed our relationship, and I respect him even more today."
+      ],
+      "vocab": [
+        {
+          "en": "decision",
+          "ar": "قرار"
+        },
+        {
+          "en": "disappoint",
+          "ar": "يُخيب أمل"
+        },
+        {
+          "en": "path",
+          "ar": "مسار / طريق"
+        },
+        {
+          "en": "surprise",
+          "ar": "مفاجأة"
+        },
+        {
+          "en": "respect",
+          "ar": "يحترم"
+        },
+        {
+          "en": "honestly",
+          "ar": "بصراحة"
+        }
+      ]
+    },
+    {
+      "id": "b1_5",
+      "title": "Moving to a New City",
+      "titleAr": "الانتقال إلى مدينة جديدة",
+      "paragraphs": [
+        "Last year, my family had to move to a new city because of my father's job. I was sad at first because I had to leave my school, my friends, and the house where I had grown up.",
+        "The first weeks were hard. I did not know anyone, and I felt lonely. My new school was bigger, and the students already had their own friend groups. I spent a lot of time in my room, missing my old life.",
+        "Slowly, things started to change. I joined the school football club, and that helped me meet new people. Some of them are now my closest friends. Looking back, the move was a challenge, but it taught me how to adapt and become more independent."
+      ],
+      "vocab": [
+        {
+          "en": "lonely",
+          "ar": "وحيد"
+        },
+        {
+          "en": "club",
+          "ar": "نادٍ"
+        },
+        {
+          "en": "challenge",
+          "ar": "تحدٍّ"
+        },
+        {
+          "en": "adapt",
+          "ar": "يتكيّف"
+        },
+        {
+          "en": "independent",
+          "ar": "مستقل"
+        },
+        {
+          "en": "closest",
+          "ar": "أقرب"
+        }
+      ]
+    },
+    {
+      "id": "b1_6",
+      "title": "Learning a New Skill",
+      "titleAr": "تعلّم مهارة جديدة",
+      "paragraphs": [
+        "Two years ago, I decided to learn how to play the guitar. At the beginning, my fingers hurt and I could not play even one simple song. I almost gave up after the first month.",
+        "My teacher encouraged me to keep practicing every day, even if it was only for fifteen minutes. Slowly, I started to improve. After six months, I could play my first complete song, and I felt incredibly proud of myself.",
+        "Learning the guitar taught me more than music. It taught me patience, discipline, and the value of small daily progress. Now, whenever I feel stressed, I pick up my guitar and play. It has become my favourite way to relax and express my feelings."
+      ],
+      "vocab": [
+        {
+          "en": "skill",
+          "ar": "مهارة"
+        },
+        {
+          "en": "practice",
+          "ar": "يتدرّب / ممارسة"
+        },
+        {
+          "en": "improve",
+          "ar": "يتحسّن"
+        },
+        {
+          "en": "discipline",
+          "ar": "انضباط"
+        },
+        {
+          "en": "progress",
+          "ar": "تقدّم"
+        },
+        {
+          "en": "express",
+          "ar": "يعبّر عن"
+        }
+      ]
+    },
+    {
+      "id": "b1_7",
+      "title": "A Cultural Experience",
+      "titleAr": "تجربة ثقافية",
+      "paragraphs": [
+        "When I visited Japan three years ago, I experienced a culture very different from mine. The first thing that surprised me was how polite everyone was. People bowed when greeting each other, and the streets were incredibly clean.",
+        "One day, I got lost in Tokyo and asked a stranger for directions. Instead of just telling me, he walked with me for ten minutes to make sure I reached the right place. I was amazed by his kindness.",
+        "That trip taught me that hospitality and respect are universal values, even though they are expressed differently around the world. I returned home with a deeper appreciation for my own culture and a strong desire to travel again."
+      ],
+      "vocab": [
+        {
+          "en": "culture",
+          "ar": "ثقافة"
+        },
+        {
+          "en": "polite",
+          "ar": "مُهذّب"
+        },
+        {
+          "en": "bow",
+          "ar": "ينحني"
+        },
+        {
+          "en": "hospitality",
+          "ar": "كرم الضيافة"
+        },
+        {
+          "en": "universal",
+          "ar": "عالمي"
+        },
+        {
+          "en": "appreciate",
+          "ar": "يُقدّر"
+        }
+      ]
+    },
+    {
+      "id": "b1_8",
+      "title": "The Importance of Reading",
+      "titleAr": "أهمية القراءة",
+      "paragraphs": [
+        "Reading has always been an important part of my life. As a child, I used to read fairy tales and adventure stories. Today, I read a mix of novels, articles, and non-fiction books on different topics.",
+        "Reading helps me learn new things and see the world from different perspectives. It also improves my vocabulary and my ability to think clearly. Whenever I face a difficult problem, I often find the answer in a book I have read.",
+        "I believe that reading is one of the best habits a person can develop. Unlike watching videos, it requires you to use your imagination and concentrate. In a world full of distractions, this skill has become even more valuable."
+      ],
+      "vocab": [
+        {
+          "en": "fairy tale",
+          "ar": "حكاية خرافية"
+        },
+        {
+          "en": "perspective",
+          "ar": "منظور"
+        },
+        {
+          "en": "vocabulary",
+          "ar": "مفردات"
+        },
+        {
+          "en": "imagination",
+          "ar": "خيال"
+        },
+        {
+          "en": "distraction",
+          "ar": "تشتيت"
+        },
+        {
+          "en": "valuable",
+          "ar": "ثمين"
+        }
+      ]
+    },
+    {
+      "id": "b1_9",
+      "title": "A Teacher Who Changed My Life",
+      "titleAr": "معلّمة غيّرت حياتي",
+      "paragraphs": [
+        "I have been lucky to have several great teachers, but one of them changed my life. Her name was Ms. Layla, and she taught me Arabic literature in high school. She was strict but always fair, and she believed in me more than I believed in myself.",
+        "One day, I had to give a presentation in front of the class. I was so nervous that I almost forgot my words. Instead of criticizing me, she stopped me, took a deep breath with me, and encouraged me to start again. I did, and I received applause from my classmates.",
+        "That small moment taught me something I have never forgotten: the right words at the right time can change someone's life. Today, I am studying to become a teacher myself, and I hope I can inspire my students the way she inspired me."
+      ],
+      "vocab": [
+        {
+          "en": "strict",
+          "ar": "صارم"
+        },
+        {
+          "en": "fair",
+          "ar": "عادل"
+        },
+        {
+          "en": "presentation",
+          "ar": "عرض تقديمي"
+        },
+        {
+          "en": "applause",
+          "ar": "تصفيق"
+        },
+        {
+          "en": "inspire",
+          "ar": "يُلهم"
+        },
+        {
+          "en": "classmate",
+          "ar": "زميل صف"
+        }
+      ]
+    },
+    {
+      "id": "b1_10",
+      "title": "Planning for the Future",
+      "titleAr": "التخطيط للمستقبل",
+      "paragraphs": [
+        "As a university student, I think a lot about the future. Some of my friends already know exactly what career they want, while others, like me, are still exploring different options.",
+        "I believe it is okay not to have all the answers at my age. What matters is that I keep learning, stay curious, and try new things. I have already done a short internship in marketing, and I really enjoyed it. Now I am considering studying business next year.",
+        "Of course, life does not always go as planned. Things change, and sometimes the unexpected leads to the best opportunities. My goal is not to have a perfect plan, but to be ready to grow, adapt, and make the most of every chance that comes my way."
+      ],
+      "vocab": [
+        {
+          "en": "career",
+          "ar": "مهنة"
+        },
+        {
+          "en": "explore",
+          "ar": "يستكشف"
+        },
+        {
+          "en": "internship",
+          "ar": "تدريب ميداني"
+        },
+        {
+          "en": "opportunity",
+          "ar": "فرصة"
+        },
+        {
+          "en": "curious",
+          "ar": "فضولي"
+        },
+        {
+          "en": "unexpected",
+          "ar": "غير متوقع"
+        }
+      ]
+    }
+  ]
+}
