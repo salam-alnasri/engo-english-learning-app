@@ -1,0 +1,303 @@
+{
+  "app": "Engo",
+  "title": {
+    "en": "Engo — Privacy Policy",
+    "ar": "Engo — سياسة الخصوصية"
+  },
+  "effective_date": {
+    "en": "September 30, 2025",
+    "ar": "30 سبتمبر 2025"
+  },
+  "last_updated": {
+    "en": "September 30, 2025",
+    "ar": "30 سبتمبر 2025"
+  },
+  "intro": [
+    {
+      "type": "paragraph",
+      "en": "This Privacy Policy explains how Engo handles information when you use the application. We are committed to protecting your privacy and maintaining a simple, secure, and transparent experience.",
+      "ar": "توضح سياسة الخصوصية هذه كيفية تعامل تطبيق Engo مع المعلومات عند استخدام التطبيق. نحن نحرص على حماية خصوصية المستخدمين وتوفير تجربة استخدام بسيطة وآمنة وشفافة."
+    },
+    {
+      "type": "paragraph",
+      "en": "Engo is designed to provide its features without requiring users to create an account, provide personal information, or submit data to external servers.",
+      "ar": "تم تصميم Engo لتوفير وظائفه الأساسية دون الحاجة إلى إنشاء حساب أو تقديم معلومات شخصية أو إرسال بيانات المستخدم إلى خوادم خارجية."
+    }
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "title": {
+        "en": "1. Information and Data We Do Not Collect",
+        "ar": "1. المعلومات والبيانات التي لا نجمعها"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "en": "Engo does not collect, request, or require users to provide personal information.",
+          "ar": "لا يقوم تطبيق Engo بجمع أو طلب أو اشتراط تقديم أي معلومات شخصية من المستخدمين."
+        },
+        {
+          "type": "paragraph",
+          "en": "The application does not collect or store information such as:",
+          "ar": "لا يقوم التطبيق بجمع أو تخزين معلومات مثل:"
+        },
+        {
+          "type": "list",
+          "en": [
+            "Full name or username",
+            "Email address",
+            "Phone number",
+            "Home or physical address",
+            "Account or login credentials",
+            "Personal identification information",
+            "Contacts or address book information",
+            "Photos or personal media for online storage",
+            "Precise location information",
+            "Browsing history",
+            "Device activity for tracking or advertising purposes"
+          ],
+          "ar": [
+            "الاسم الكامل أو اسم المستخدم",
+            "عنوان البريد الإلكتروني",
+            "رقم الهاتف",
+            "العنوان السكني أو العنوان الفعلي",
+            "بيانات الحساب أو تسجيل الدخول",
+            "معلومات التعريف الشخصية",
+            "جهات الاتصال أو دفتر العناوين",
+            "الصور أو الوسائط الشخصية بغرض تخزينها عبر الإنترنت",
+            "معلومات الموقع الجغرافي الدقيق",
+            "سجل التصفح",
+            "بيانات نشاط الجهاز لأغراض التتبع أو الإعلانات"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "en": "Engo also does not create personal profiles or user accounts based on information collected from the application.",
+          "ar": "كما لا يقوم Engo بإنشاء ملفات تعريف شخصية للمستخدمين استنادًا إلى معلومات يتم جمعها من التطبيق."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": {
+        "en": "2. Local Data Storage and Security",
+        "ar": "2. تخزين البيانات محليًا وحمايتها"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "en": "Engo may store application-related information, such as user progress, preferences, settings, or other data required for the application to function properly.",
+          "ar": "قد يقوم Engo بتخزين بعض المعلومات المتعلقة باستخدام التطبيق، مثل تقدم المستخدم والإعدادات والتفضيلات أو أي بيانات أخرى ضرورية لتشغيل وظائف التطبيق."
+        },
+        {
+          "type": "paragraph",
+          "en": "This information is stored locally on the user's device and is not transmitted to Engo servers or external third parties.",
+          "ar": "يتم تخزين هذه المعلومات محليًا على جهاز المستخدم، ولا يتم إرسالها إلى خوادم Engo أو إلى أي جهات خارجية."
+        },
+        {
+          "type": "paragraph",
+          "en": "Because this information remains on the device, its availability may be affected if the application is uninstalled, the device is reset, or locally stored application data is deleted.",
+          "ar": "وبما أن هذه المعلومات يتم الاحتفاظ بها على الجهاز، فقد تتأثر إمكانية الوصول إليها في حال حذف التطبيق أو إعادة ضبط الجهاز أو حذف بيانات التطبيق المخزنة محليًا."
+        },
+        {
+          "type": "paragraph",
+          "en": "Engo relies on the storage and security mechanisms provided by the operating system to protect locally stored application data. Users should also maintain appropriate security measures on their devices, such as screen locks and operating-system updates.",
+          "ar": "يعتمد Engo على آليات التخزين والحماية التي يوفرها نظام التشغيل لحماية البيانات المخزنة محليًا. كما يُنصح المستخدمون بالحفاظ على أمان أجهزتهم من خلال استخدام قفل الشاشة وتحديث نظام التشغيل بشكل منتظم."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": {
+        "en": "3. Children's Privacy",
+        "ar": "3. خصوصية الأطفال"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "en": "Engo is intended to be suitable for users of different age groups, including children.",
+          "ar": "تم تصميم Engo ليكون مناسبًا لمستخدمين من مختلف الفئات العمرية، بما في ذلك الأطفال."
+        },
+        {
+          "type": "paragraph",
+          "en": "The application does not knowingly collect, request, or store personal information from children or other users.",
+          "ar": "لا يقوم التطبيق عن قصد بجمع أو طلب أو تخزين معلومات شخصية من الأطفال أو من أي مستخدم آخر."
+        },
+        {
+          "type": "paragraph",
+          "en": "Since Engo does not require users to create accounts or submit personal information, the application is designed to minimize privacy risks associated with children's use.",
+          "ar": "ونظرًا إلى أن Engo لا يتطلب إنشاء حسابات أو تقديم معلومات شخصية، فقد تم تصميم التطبيق بطريقة تقلل من مخاطر الخصوصية المرتبطة باستخدام الأطفال للتطبيق."
+        },
+        {
+          "type": "paragraph",
+          "en": "Parents and guardians are encouraged to supervise children's use of applications and devices and to ensure that appropriate device-level privacy and security settings are enabled.",
+          "ar": "يُنصح أولياء الأمور والأوصياء بمتابعة استخدام الأطفال للتطبيقات والأجهزة والتأكد من تفعيل إعدادات الخصوصية والأمان المناسبة على الأجهزة."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": {
+        "en": "4. Third-Party Services and External Links",
+        "ar": "4. خدمات الجهات الخارجية والروابط الخارجية"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "en": "Engo does not use third-party advertising, analytics, tracking, or behavioral profiling services.",
+          "ar": "لا يستخدم Engo خدمات الإعلانات أو التحليلات أو التتبع أو إنشاء ملفات تعريف سلوكية تابعة لجهات خارجية."
+        },
+        {
+          "type": "paragraph",
+          "en": "The application does not sell, rent, or share user information with third parties.",
+          "ar": "كما لا يقوم التطبيق ببيع أو تأجير أو مشاركة معلومات المستخدمين مع أي جهات خارجية."
+        },
+        {
+          "type": "paragraph",
+          "en": "Engo may contain links or buttons that direct users to external services, websites, or application stores. These external services operate independently and may have their own privacy policies and terms of use.",
+          "ar": "قد يحتوي Engo على روابط أو أزرار تنقل المستخدم إلى خدمات أو مواقع إلكترونية أو متاجر تطبيقات خارجية. تعمل هذه الخدمات بشكل مستقل وقد تكون لها سياسات خصوصية وشروط استخدام خاصة بها."
+        },
+        {
+          "type": "paragraph",
+          "en": "Once a user leaves Engo and accesses an external service, the privacy practices of that service are governed by the relevant third party. Users should review the privacy policy of any external service they choose to access.",
+          "ar": "عند مغادرة Engo والوصول إلى خدمة خارجية، تصبح ممارسات الخصوصية الخاصة بتلك الخدمة خاضعة لسياسة الجهة الخارجية المعنية. لذلك، يُنصح المستخدم بمراجعة سياسة الخصوصية الخاصة بأي خدمة خارجية يختار الوصول إليها."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": {
+        "en": "5. Data Sharing and Disclosure",
+        "ar": "5. مشاركة البيانات والإفصاح عنها"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "en": "Engo does not sell, rent, trade, or otherwise disclose personal information because the application does not collect or maintain personal information.",
+          "ar": "لا يقوم Engo ببيع أو تأجير أو المتاجرة أو الكشف عن المعلومات الشخصية، وذلك لأن التطبيق لا يجمع أو يحتفظ بمعلومات شخصية للمستخدمين."
+        },
+        {
+          "type": "paragraph",
+          "en": "No personal information is provided to advertisers, analytics providers, data brokers, or other third parties through the application.",
+          "ar": "ولا يتم تقديم معلومات شخصية إلى المعلنين أو مزودي خدمات التحليلات أو وسطاء البيانات أو أي جهات خارجية من خلال التطبيق."
+        },
+        {
+          "type": "paragraph",
+          "en": "The application is designed to operate without transmitting user information to external servers.",
+          "ar": "تم تصميم التطبيق ليعمل دون إرسال معلومات المستخدم إلى خوادم خارجية."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": {
+        "en": "6. Data Retention and Deletion",
+        "ar": "6. الاحتفاظ بالبيانات وحذفها"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "en": "Since Engo does not maintain user accounts or store personal information on external servers, there is no personal information held by Engo that requires server-side deletion.",
+          "ar": "نظرًا إلى أن Engo لا ينشئ حسابات للمستخدمين ولا يحتفظ بمعلومات شخصية على خوادم خارجية، فلا توجد معلومات شخصية يحتفظ بها التطبيق وتتطلب الحذف من الخوادم."
+        },
+        {
+          "type": "paragraph",
+          "en": "Application settings, progress, and other locally stored information remain on the user's device until they are changed, cleared, or deleted by the user or by the operating system.",
+          "ar": "تبقى إعدادات التطبيق والتقدم والبيانات الأخرى المخزنة محليًا على جهاز المستخدم إلى أن يقوم المستخدم بتغييرها أو مسحها أو حذفها، أو يقوم نظام التشغيل بحذفها."
+        },
+        {
+          "type": "paragraph",
+          "en": "Users may be able to remove locally stored application data through their device settings or by uninstalling the application, depending on the operating system and device.",
+          "ar": "يمكن للمستخدم، بحسب نظام التشغيل ونوع الجهاز، إزالة البيانات المخزنة محليًا من خلال إعدادات الجهاز أو عن طريق إلغاء تثبيت التطبيق."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": {
+        "en": "7. Privacy Policy Updates",
+        "ar": "7. تحديثات سياسة الخصوصية"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "en": "This Privacy Policy may be updated from time to time to reflect changes to the application, its features, applicable requirements, or privacy practices.",
+          "ar": "قد يتم تحديث سياسة الخصوصية هذه من وقت لآخر لتعكس التغييرات التي تطرأ على التطبيق أو وظائفه أو المتطلبات المعمول بها أو ممارسات الخصوصية."
+        },
+        {
+          "type": "paragraph",
+          "en": "When changes are made, the updated version will be made available through the application or another appropriate location.",
+          "ar": "عند إجراء أي تغييرات، سيتم إتاحة النسخة المحدثة من سياسة الخصوصية من خلال التطبيق أو من خلال وسيلة مناسبة أخرى."
+        },
+        {
+          "type": "paragraph",
+          "en": "The revised Privacy Policy will become effective when it is published, unless a different effective date is stated.",
+          "ar": "تدخل النسخة المعدلة حيز التنفيذ عند نشرها، ما لم يتم تحديد تاريخ سريان مختلف."
+        },
+        {
+          "type": "paragraph",
+          "en": "We recommend reviewing this Privacy Policy periodically to remain informed about how Engo handles information.",
+          "ar": "ننصح المستخدمين بمراجعة سياسة الخصوصية بشكل دوري للاطلاع على كيفية تعامل Engo مع المعلومات."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": {
+        "en": "8. Your Privacy Choices",
+        "ar": "8. خيارات الخصوصية الخاصة بالمستخدم"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "en": "Engo is designed to minimize the amount of information required from users.",
+          "ar": "تم تصميم Engo لتقليل كمية المعلومات التي يحتاج المستخدم إلى تقديمها إلى الحد الأدنى."
+        },
+        {
+          "type": "paragraph",
+          "en": "You are not required to create an account or provide personal information to use the application's core features.",
+          "ar": "لا يحتاج المستخدم إلى إنشاء حساب أو تقديم معلومات شخصية لاستخدام الوظائف الأساسية للتطبيق."
+        },
+        {
+          "type": "paragraph",
+          "en": "Because Engo does not maintain personal profiles or personal information on external servers, there are no account-based personal data management features such as account deletion or profile modification.",
+          "ar": "وبما أن Engo لا يحتفظ بملفات تعريف شخصية أو معلومات شخصية على خوادم خارجية، فلا توجد وظائف مرتبطة بالحسابات لإدارة البيانات الشخصية، مثل حذف الحساب أو تعديل الملف الشخصي."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": {
+        "en": "9. Contact and Privacy Questions",
+        "ar": "9. الاستفسارات المتعلقة بالخصوصية"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "en": "If you have questions, concerns, or requests regarding this Privacy Policy or Engo's privacy practices, you may use the available contact method provided through the application or its official distribution platform.",
+          "ar": "إذا كانت لديك أي أسئلة أو مخاوف أو طلبات تتعلق بسياسة الخصوصية هذه أو بممارسات الخصوصية الخاصة بتطبيق Engo، يمكنك استخدام وسيلة التواصل المتاحة من خلال التطبيق أو منصة التوزيع الرسمية الخاصة به."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": {
+        "en": "Consent",
+        "ar": "الموافقة"
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "en": "By using Engo, you acknowledge that you have read and understood this Privacy Policy and agree to the practices described in it.",
+          "ar": "باستخدامك لتطبيق Engo، فإنك تقر بأنك قرأت سياسة الخصوصية هذه وفهمتها وتوافق على الممارسات الموضحة فيها."
+        },
+        {
+          "type": "paragraph",
+          "en": "If you do not agree with this Privacy Policy, you should discontinue use of the application.",
+          "ar": "إذا كنت لا توافق على سياسة الخصوصية هذه، فيجب عليك التوقف عن استخدام التطبيق."
+        }
+      ]
+    }
+  ]
+}

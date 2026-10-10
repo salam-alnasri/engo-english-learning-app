@@ -1,4 +1,5 @@
 import 'package:engo/pages/page2/level_data.dart';
+import 'package:engo/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -48,12 +49,16 @@ class LevelCard extends StatelessWidget {
             color: Colors.white,
             borderRadius: BorderRadius.circular(24),
             border: Border.all(
-              color: level.color.withValues(alpha: isCompleted ? .6 : .28),
-              width: 1.5,
+              color: AppColors
+                  .color16 //======================
+                  .withValues(alpha: isCompleted ? .6 : .28),
+              width: 2,
             ),
             boxShadow: [
               BoxShadow(
-                color: level.color.withValues(alpha: .12),
+                color: AppColors
+                    .color16 //======================
+                    .withValues(alpha: .12),
                 blurRadius: 14,
                 offset: const Offset(0, 6),
               ),
@@ -72,18 +77,7 @@ class LevelCard extends StatelessWidget {
                     children: [
                       _TitleRow(level: level, isCompleted: isCompleted),
                       const SizedBox(height: 4),
-                      // Text(
-                      //   level.descriptionAr,
-                      //   textDirection: TextDirection.rtl,
-                      //   textAlign: TextAlign.right,
-                      //   maxLines: 2,
-                      //   overflow: TextOverflow.ellipsis,
-                      //   style: GoogleFonts.cairo(
-                      //     fontSize: 12.5,
-                      //     height: 1.5,
-                      //     color: _mutedColor,
-                      //   ),
-                      // ),
+
                       const SizedBox(height: 8),
                       Wrap(
                         spacing: 6,
@@ -91,12 +85,12 @@ class LevelCard extends StatelessWidget {
                         alignment: WrapAlignment.end,
                         children: [
                           InfoChip(
-                            color: level.color,
+                            color: AppColors.color16, //======================
                             icon: Icons.auto_stories_rounded,
                             label: '$total قصة',
                           ),
                           InfoChip(
-                            color: level.color,
+                            color: AppColors.color16, //======================
                             icon: isCompleted
                                 ? Icons.emoji_events_rounded
                                 : Icons.timelapse_rounded,
@@ -112,8 +106,10 @@ class LevelCard extends StatelessWidget {
                         child: LinearProgressIndicator(
                           value: progress,
                           minHeight: 7,
-                          backgroundColor: level.color.withValues(alpha: .14),
-                          color: level.color,
+                          backgroundColor: AppColors
+                              .color16 //======================
+                              .withValues(alpha: .14),
+                          color: AppColors.color16, //======================
                         ),
                       ),
                       const SizedBox(height: 6),
@@ -125,7 +121,7 @@ class LevelCard extends StatelessWidget {
                           style: GoogleFonts.cairo(
                             fontSize: 11.5,
                             fontWeight: FontWeight.w700,
-                            color: level.color,
+                            color: AppColors.color16, //======================
                           ),
                         ),
                       ),
@@ -157,14 +153,22 @@ class _LevelBadge extends StatelessWidget {
         alignment: Alignment.center,
         decoration: BoxDecoration(
           gradient: LinearGradient(
-            colors: [level.color, level.color.withValues(alpha: .75)],
+            colors: [
+              AppColors.color16, //======================,
+
+              AppColors
+                  .color16 //======================
+                  .withValues(alpha: .75),
+            ],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
           borderRadius: BorderRadius.circular(18),
           boxShadow: [
             BoxShadow(
-              color: level.color.withValues(alpha: .35),
+              color: AppColors
+                  .color16 //======================
+                  .withValues(alpha: .35),
               blurRadius: 10,
               offset: const Offset(0, 5),
             ),
@@ -203,7 +207,11 @@ class _TitleRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Row(
     children: [
-      Icon(level.icon, size: 18, color: level.color),
+      Icon(
+        level.icon,
+        size: 18,
+        color: AppColors.color16, //======================
+      ),
       const SizedBox(width: 6),
       Expanded(
         child: Text(
@@ -219,7 +227,11 @@ class _TitleRow extends StatelessWidget {
         ),
       ),
       if (isCompleted)
-        Icon(Icons.verified_rounded, size: 20, color: level.color)
+        Icon(
+          Icons.verified_rounded,
+          size: 20,
+          color: AppColors.color16, //======================
+        )
       else
         const Icon(Icons.chevron_left_rounded, color: Color(0xFFCED4DA)),
     ],

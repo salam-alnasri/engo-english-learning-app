@@ -2,6 +2,7 @@ import 'package:engo/pages/page2/widgets/costom_button.dart';
 import 'package:engo/pages/page2/level_data.dart';
 import 'package:engo/pages/page2/levels_controller.dart';
 import 'package:engo/pages/page2/widgets/reading_widgets.dart';
+import 'package:engo/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -114,14 +115,17 @@ class _StoryHeader extends StatelessWidget {
     padding: const EdgeInsets.all(16),
     decoration: BoxDecoration(
       gradient: LinearGradient(
-        colors: [level.color, level.color.withValues(alpha: .78)],
+        colors: [
+          AppColors.color17,
+          AppColors.color17.withValues(alpha: .78),
+        ], //=============
         begin: Alignment.topRight,
         end: Alignment.bottomLeft,
       ),
       borderRadius: BorderRadius.circular(22),
       boxShadow: [
         BoxShadow(
-          color: level.color.withValues(alpha: .28),
+          color: AppColors.color17.withValues(alpha: .28), //================
           blurRadius: 16,
           offset: const Offset(0, 7),
         ),
@@ -255,7 +259,7 @@ class _StoryActions extends StatelessWidget {
                 fontWeight: FontWeight.w700,
               ),
             ),
-            style: _outlinedStyle(level.color),
+            style: _outlinedStyle(AppColors.color17), //=================
           ),
           OutlinedButton.icon(
             onPressed: () => controller.speakStorySlowly(story),
@@ -268,7 +272,7 @@ class _StoryActions extends StatelessWidget {
                 fontWeight: FontWeight.w700,
               ),
             ),
-            style: _outlinedStyle(level.color),
+            style: _outlinedStyle(AppColors.color17), //==================
           ),
           ElevatedButton.icon(
             onPressed: () => controller.toggleRead(story.id),
@@ -287,7 +291,9 @@ class _StoryActions extends StatelessWidget {
               ),
             ),
             style: ElevatedButton.styleFrom(
-              backgroundColor: read ? const Color(0xFF283618) : level.color,
+              backgroundColor: read
+                  ? const Color(0xFF283618)
+                  : AppColors.color17, //===========
               foregroundColor: Colors.white,
               padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
               shape: RoundedRectangleBorder(

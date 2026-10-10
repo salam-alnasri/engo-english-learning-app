@@ -1,5 +1,4 @@
 import 'package:engo/pages/page2/level_models.dart';
-import 'package:engo/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 
 // نُعيد تصدير النماذج حتى تبقى الاستيرادات القديمة تعمل:
@@ -17,7 +16,6 @@ final List<CefrLevel> cefrLevels = [
   CefrLevel(
     code: 'A1',
     nameAr: 'مبتدئ',
-    color: AppColors.color11,
     icon: Icons.child_care_rounded,
     texts: const <ReadingText>[], // تُملأ من JSON عند التحميل
   ),
@@ -25,7 +23,6 @@ final List<CefrLevel> cefrLevels = [
   CefrLevel(
     code: 'A2',
     nameAr: 'ما قبل المتوسط',
-    color: AppColors.color12,
     icon: Icons.backpack_rounded,
     texts: const <ReadingText>[],
   ),
@@ -33,7 +30,6 @@ final List<CefrLevel> cefrLevels = [
   CefrLevel(
     code: 'B1',
     nameAr: 'المتوسط',
-    color: AppColors.color13,
     icon: Icons.menu_book_rounded,
     texts: const <ReadingText>[],
   ),
@@ -41,7 +37,6 @@ final List<CefrLevel> cefrLevels = [
   CefrLevel(
     code: 'B2',
     nameAr: 'فوق المتوسط',
-    color: AppColors.color14,
     icon: Icons.insights_rounded,
     texts: const <ReadingText>[],
   ),
@@ -49,7 +44,6 @@ final List<CefrLevel> cefrLevels = [
   CefrLevel(
     code: 'C1',
     nameAr: 'المتقدم',
-    color: AppColors.color15,
     icon: Icons.psychology_rounded,
     texts: const <ReadingText>[],
   ),
@@ -57,7 +51,6 @@ final List<CefrLevel> cefrLevels = [
   CefrLevel(
     code: 'C2',
     nameAr: 'الإتقان',
-    color: AppColors.color16,
     icon: Icons.workspace_premium_rounded,
     texts: const <ReadingText>[],
   ),

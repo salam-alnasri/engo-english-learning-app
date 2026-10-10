@@ -50,7 +50,7 @@ class CefrLevel {
     required this.code,
     required this.nameAr,
     // required this.descriptionAr,
-    required this.color,
+    // required this.color,
     required this.icon,
     required this.texts,
   });
@@ -65,7 +65,7 @@ class CefrLevel {
   // final String descriptionAr;
 
   /// لون المستوى (يُستخدم في البطاقات ومربعات الحوار).
-  final Color color;
+  // final Color color;
 
   /// أيقونة المستوى.
   final IconData icon;

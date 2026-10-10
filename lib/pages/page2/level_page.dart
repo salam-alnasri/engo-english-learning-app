@@ -17,7 +17,8 @@ class LevelPage extends StatelessWidget {
       // أثناء تحميل القصص من ملفات JSON
       if (controller.isLoading.value) {
         return Scaffold(
-          backgroundColor: Colors.white,
+          backgroundColor: Color(0xffF5F8FC),
+
           body: const Center(
             child: CircularProgressIndicator(color: AppColors.color1),
           ),
@@ -28,19 +29,25 @@ class LevelPage extends StatelessWidget {
       final readCounts = controller.progressSnapshot();
 
       return Scaffold(
-        backgroundColor: Colors.white,
+        backgroundColor: Color(0xffF5F8FC), //==============
+
         body: SafeArea(
           child: Column(
             children: [
               const _Header(),
               Expanded(
                 child: GridView.builder(
-                  padding: const EdgeInsets.fromLTRB(14, 4, 14, 30),
+                  padding: const EdgeInsets.only(
+                    top: 10,
+                    right: 10,
+                    left: 10,
+                    bottom: 10,
+                  ),
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2, // شبكة بعمودين: 2×3 للمستويات الستة
-                    mainAxisSpacing: 12,
-                    crossAxisSpacing: 12,
-                    childAspectRatio: 0.95, // نسبة مربّعة تقريباً للبطاقة
+                    mainAxisSpacing: 10,
+                    crossAxisSpacing: 10,
+                    childAspectRatio: 1, // نسبة مربّعة تقريباً للبطاقة
                   ),
                   itemCount: controller.levels.length,
                   itemBuilder: (context, index) {
@@ -84,13 +91,14 @@ class _Header extends StatelessWidget {
     child: Row(
       children: [
         Container(
-          width: 46,
-          height: 46,
+          width: 40,
+          height: 40,
           decoration: BoxDecoration(
-            color: AppColors.color1, //=========================
+            border: Border.all(color: AppColors.color1), //========
+
             borderRadius: BorderRadius.circular(10),
           ),
-          child: const Icon(Icons.school_rounded, color: AppColors.color5),
+          child: const Icon(Icons.school_rounded, color: AppColors.color1),
         ),
         const SizedBox(width: 10),
         Expanded(
@@ -101,16 +109,16 @@ class _Header extends StatelessWidget {
                 'مستويات اللغة الانجليزية ',
                 textDirection: TextDirection.rtl,
                 style: GoogleFonts.cairo(
-                  fontSize: 20,
+                  fontSize: 18,
                   fontWeight: FontWeight.w800,
-                  color: AppColors.color2, //=========================
+                  color: AppColors.color1, //=========================
                 ),
               ),
               Text(
                 'اقرأ النصوص لمعرفة مستواك',
                 textDirection: TextDirection.rtl,
                 style: GoogleFonts.cairo(
-                  fontSize: 13,
+                  fontSize: 12,
                   color: AppColors.color1, //=========================
                 ),
               ),
@@ -146,12 +154,14 @@ class _LevelCard extends StatelessWidget {
       color: Colors.transparent,
       child: InkWell(
         onTap: onTap,
-        borderRadius: BorderRadius.circular(24),
+        borderRadius: BorderRadius.circular(20),
         child: Ink(
           decoration: BoxDecoration(
-            color: AppColors.color7, // 🧊 اللون الشفاف الموحَّد
-            borderRadius: BorderRadius.circular(20),
-            border: Border.all(color: level.color, width: 1.5),
+            color: AppColors.color20, //====== 🧊 اللون الشفاف الموحَّد
+            borderRadius: BorderRadius.circular(30),
+            border: Border.all(
+              color: AppColors.color19, //=============
+            ),
           ),
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
@@ -159,13 +169,24 @@ class _LevelCard extends StatelessWidget {
               children: [
                 Row(
                   children: [
+                    Icon(
+                      isCompleted
+                          ? Icons.verified_rounded
+                          : Icons.chevron_left_rounded,
+                      color: isCompleted
+                          ? AppColors.color1
+                          : AppColors.color1.withValues(alpha: .7),
+                      size: 20,
+                    ),
+                    Spacer(),
+
                     Container(
-                      width: 44,
-                      height: 44,
+                      width: 40,
+                      height: 40,
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
-                        color: level.color,
+                        color: AppColors.color19, //=====================
                         //
                       ),
                       child: Text(
@@ -176,16 +197,6 @@ class _LevelCard extends StatelessWidget {
                           color: AppColors.color5,
                         ),
                       ),
-                    ),
-                    const Spacer(),
-                    Icon(
-                      isCompleted
-                          ? Icons.verified_rounded
-                          : Icons.chevron_left_rounded,
-                      color: isCompleted
-                          ? AppColors.color1
-                          : AppColors.color1.withValues(alpha: .7),
-                      size: 20,
                     ),
                   ],
                 ),

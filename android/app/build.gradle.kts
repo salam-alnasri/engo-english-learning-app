@@ -30,8 +30,8 @@ android {
         applicationId = "com.yourname.engo"
         minSdk = 24
         targetSdk = 36
-        versionCode = 21
-        versionName = "4.3.1+1"
+        versionCode = 22
+        versionName = "4.3.2+2"
     }
 
     // إعدادات التوقيع الرقمي

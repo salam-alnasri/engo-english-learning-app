@@ -1,4 +1,3 @@
-import 'package:engo/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -43,10 +42,9 @@ class _LessonDialogStyle {
   static const double cardRadius = 28;
 
   // الألوان
-  static const Color backgroundColor = Colors.white;
+
   static const Color accentColor = Color(0xFF1E3A5F); // جليدي عميق
 
-  static const Color categoryColor = Color(0xFF6B8CAF); // فولاذي
   static const Color titleColor = Color(0xFF1E3A5F);
   static const Color buttonColor = Color(0xFF1E3A5F);
   static const Color buttonTextColor = Colors.white;

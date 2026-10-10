@@ -90,7 +90,7 @@ class LevelTextsPage extends StatelessWidget {
                           final story = stories[index];
                           return StoryCard(
                             text: story,
-                            color: level.color,
+                            color: AppColors.color18, //=======================
                             number: index + 1,
                             read: readStoryIds[story.id] ?? false,
                             onTap: () => controller.openStory(story.id),
@@ -130,14 +130,18 @@ class _LevelBanner extends StatelessWidget {
     padding: const EdgeInsets.all(16),
     decoration: BoxDecoration(
       gradient: LinearGradient(
-        colors: [level.color, level.color.withValues(alpha: .78)],
+        colors: [
+          AppColors.color18, //===============
+
+          AppColors.color18.withValues(alpha: .78), //==============
+        ],
         begin: Alignment.topRight,
         end: Alignment.bottomLeft,
       ),
       borderRadius: BorderRadius.circular(22),
       boxShadow: [
         BoxShadow(
-          color: level.color.withValues(alpha: .28),
+          color: AppColors.color18.withValues(alpha: .28), //===================
           blurRadius: 16,
           offset: const Offset(0, 7),
         ),

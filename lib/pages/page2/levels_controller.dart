@@ -41,7 +41,7 @@ class LevelsController extends GetxController {
         _levels[i] = CefrLevel(
           code: base.code,
           nameAr: base.nameAr,
-          color: base.color,
+          // color: base.color,
           icon: base.icon,
           texts: stories,
         );

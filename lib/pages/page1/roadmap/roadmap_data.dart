@@ -1,5 +1,6 @@
 import 'package:engo/theme/app_colors.dart';
 import 'package:flutter/material.dart';
+import 'package:iconsax/iconsax.dart';
 
 /// نموذج موحّد لعنصر في الرودماب — إمّا مرحلة عادية أو فاصل خط.
 class RoadMapStage {
@@ -39,8 +40,8 @@ const List<String> _lineTitles = [
   ' الاشكال والألوان',
   'الحيوانات والمزرعة',
   'الملابس والفصول',
-  'الأيام والأشهر والاعوام',
-  'الأماكن في المدينة والريف',
+  'الأيام والأشهر ',
+  'الأماكن في المدينة ',
   'السفر والمواصلات',
   'الجسم والصحة',
   'الطقس والطبيعة',
@@ -102,7 +103,8 @@ class RoadMapData {
     RoadMapStage(
       id: '1 ',
       title: 'الدرس ',
-      iconData: Icons.menu_book_outlined,
+      iconData: Iconsax.menu4,
+
       lineNumber: 1,
     ),
     RoadMapStage(
@@ -865,6 +867,13 @@ class RoadMapData {
 
   /// عدد المراحل الفعلي (بدون الفواصل).
   static int get stageCount => _rawStages.length;
+
+  /// العدد الكلي للخطوط (مجموعات من 5 مراحل).
+  /// يُحسب تلقائياً: ceil(stageCount / stagesPerLine).
+  static int get totalLines {
+    if (_rawStages.isEmpty) return 1;
+    return ((_rawStages.length + stagesPerLine - 1) / stagesPerLine).ceil();
+  }
 
   // ──────────────────────────────────────────────
   // 🟢 دوال مساعدة لحوار "الدرس ١ من ٥"

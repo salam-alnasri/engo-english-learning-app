@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:engo/pages/page1/lesson1/lesson1.dart';
-import 'package:engo/pages/page1/roadmap/widgets/LineTitleInline.dart';
+import 'package:engo/pages/page1/roadmap/widgets/line_title.dart';
 import 'package:engo/theme/app_colors.dart';
 import 'package:engo/widgets/bottom_nav_controller.dart';
 import 'package:flutter/material.dart';
@@ -33,8 +33,13 @@ class _RoadMapPageState extends State<RoadMapPage> {
   // مؤقت للحفظ المُؤجّل (debounce) لتفادي الكتابة المتكررة
   Timer? _saveTimer;
 
-  // المسافة بين المراحل (يجب أن يطابق itemSpacing في FlutterPathLayout).
-  static const double _itemSpacing = 80;
+  // 🟢 MediaQuery — نقطة مرجعية (iPhone X / 11 Pro) لتعديل الأحجام لكل المقاسات.
+  static const double _refWidth = 375.0;
+  static const double _refHeight = 812.0;
+  // المسافة بين المراحل (أساسية — تُضرب بمقياس الارتفاع في كل بناء).
+  static const double _baseItemSpacing = 80;
+  // المسافة الفعلية بين المراحل (تُحسب من MediaQuery في كل بناء).
+  double _itemSpacing = _baseItemSpacing;
 
   @override
   void initState() {
@@ -54,16 +59,42 @@ class _RoadMapPageState extends State<RoadMapPage> {
         _scrollController.jumpTo(savedOffset.clamp(0.0, maxOffset));
       }
 
-      // 3) تحديث عنوان الخط بناءً على الموضع الحالي
+      // 3) تحديث عنوان الخط ورقمه بناءً على الموضع الحالي
       final double currentOffset = _scrollController.hasClients
           ? _scrollController.offset
           : savedOffset;
       final int visualIndex = (currentOffset / _itemSpacing).round();
       final int safeIndex = visualIndex.clamp(0, RoadMapData.stages.length - 1);
-      controller.currentLineTitle.value = RoadMapData.lineTitle(
-        RoadMapData.lineOf(safeIndex),
-      );
+      // استخدم الفهرس الأصلي (وليس البصري) ليتم تحديث العنوان والعدّاد معاً
+      final int orig = _nearestOriginalIndex(safeIndex);
+      final int line = (orig ~/ RoadMapData.stagesPerLine) + 1;
+      controller.currentLineTitle.value = RoadMapData.lineTitle(line);
+      controller.currentLine.value = line;
+      controller.currentLessonInLine.value = _lessonInLineForVisual(safeIndex);
     });
+  }
+
+  /// إيجاد أقرب فهرس أصلي (غير فاصل) لفهرس بصري.
+  /// البحث للخلف أولاً: عند الفاصل، نُبقي العدّاد على آخر درس مَرَّ به المستخدم
+  /// حتى يمرّر للمرحلة التالية من الخط الجديد فيُحدَّث تلقائياً.
+  int _nearestOriginalIndex(int visualIndex) {
+    final int len = RoadMapData.stages.length;
+    if (len == 0) return 0;
+    for (int i = visualIndex; i >= 0; i--) {
+      final int? orig = RoadMapData.originalIndexOf(i);
+      if (orig != null) return orig;
+    }
+    for (int i = visualIndex + 1; i < len; i++) {
+      final int? orig = RoadMapData.originalIndexOf(i);
+      if (orig != null) return orig;
+    }
+    return 0;
+  }
+
+  /// رقم الدرس داخل الخط (1..5) لفهرس بصري معيّن.
+  int _lessonInLineForVisual(int visualIndex) {
+    final int orig = _nearestOriginalIndex(visualIndex);
+    return RoadMapData.lessonNumberInLine(orig);
   }
 
   @override
@@ -82,19 +113,27 @@ class _RoadMapPageState extends State<RoadMapPage> {
 
     // ضمان أن البصري ضمن الحدود
     final int safeIndex = visualIndex.clamp(0, RoadMapData.stages.length - 1);
-    final int line = RoadMapData.lineOf(safeIndex);
+    // استخدم نفس الفهرس الأصلي للخط والعدّاد ليبقيا متزامنين
+    final int orig = _nearestOriginalIndex(safeIndex);
+    final int line = (orig ~/ RoadMapData.stagesPerLine) + 1;
     final String title = RoadMapData.lineTitle(line);
 
-    // تحديث العنوان فقط عند التغيير — نُؤجّل التحديث لما بعد البناء
-    // لتفادي setState/markNeedsBuild أثناء البناء (خطأ Obx).
+    // تحديث العنوان ورقم الخط ورقم الدرس داخل الخط فقط عند التغيير —
+    // نُؤجّل التحديث لما بعد البناء لتفادي setState/markNeedsBuild
+    // أثناء البناء (خطأ Obx).
     final controller = Get.find<BottomNavController>();
-    if (controller.currentLineTitle.value != title) {
-      WidgetsBinding.instance.addPostFrameCallback((_) {
-        if (controller.currentLineTitle.value != title) {
-          controller.currentLineTitle.value = title;
-        }
-      });
-    }
+    final int lessonInLine = _lessonInLineForVisual(safeIndex);
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (controller.currentLineTitle.value != title) {
+        controller.currentLineTitle.value = title;
+      }
+      if (controller.currentLine.value != line) {
+        controller.currentLine.value = line;
+      }
+      if (controller.currentLessonInLine.value != lessonInLine) {
+        controller.currentLessonInLine.value = lessonInLine;
+      }
+    });
 
     // 🟢 حفظ الموضع في GetStorage مع debounce (300ms)
     // يكتب مرة واحدة بعد توقّف المستخدم عن التمرير لتوفير الموارد.
@@ -130,84 +169,26 @@ class _RoadMapPageState extends State<RoadMapPage> {
 
   @override
   Widget build(BuildContext context) {
+    // 🟢 MediaQuery — قياس الشاشة لحساب مقاييس متناسقة.
+    final MediaQueryData media = MediaQuery.of(context);
+    final double screenW = media.size.width;
+    final double screenH = media.size.height;
+    // مقاييس محصورة (لا تتجاوز 40% من المرجع لتفادي كسر التصميم على
+    // // شاشات صغيرة جداً أو أجهزة لوحية كبيرة).
+    final double wScale = (screenW / _refWidth).clamp(0.70, 1.40);
+    final double hScale = (screenH / _refHeight).clamp(0.75, 1.30);
+    // مقياس موحّد للعناصر ثنائية البُعد (دوائر، فواصل، أيقونات).
+    final double ui = ((wScale + hScale) / 2).clamp(0.75, 1.35);
+
+    // حدِّث المسافة بين المراحل بناءً على ارتفاع الشاشة.
+    _itemSpacing = _baseItemSpacing * hScale;
+
     return Scaffold(
-      backgroundColor: Colors.white,
-
-      // 🟢 شريط علوي — معلومات تقدم اللاعب (ذهب + LineBanner + قلوب)
-      appBar: AppBar(
-        backgroundColor: AppColors.color1,
-        foregroundColor: Colors.white,
-        elevation: 0,
-        automaticallyImplyLeading: false,
-        titleSpacing: 0,
-        title: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            // ─── عملات ذهبية (يسار) ──────────────────────────
-            Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Container(
-                  padding: const EdgeInsets.all(4),
-                  decoration: BoxDecoration(
-                    color: Colors.white.withValues(alpha: 0.15),
-                    shape: BoxShape.circle,
-                  ),
-                  child: const Icon(
-                    Icons.monetization_on,
-                    color: Color(0xFFFFD700), // ذهبي
-                    size: 20,
-                  ),
-                ),
-                const SizedBox(width: 6),
-                Text(
-                  '10',
-                  style: GoogleFonts.cairo(
-                    fontSize: 16,
-                    fontWeight: FontWeight.w900,
-                    color: Colors.white,
-                  ),
-                ),
-              ],
-            ),
-
-            // ─── عنوان الخط الحالي (وسط) ─────────────────────
-            const Flexible(child: LineTitleInline()),
-
-            // ─── قلب واحد + رقم (يمين) ─────────────────────
-            Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Text(
-                  '10',
-                  style: GoogleFonts.cairo(
-                    fontSize: 16,
-                    fontWeight: FontWeight.w900,
-                    color: Colors.white,
-                  ),
-                ),
-                const SizedBox(width: 6),
-                Container(
-                  padding: const EdgeInsets.all(4),
-                  decoration: BoxDecoration(
-                    color: Colors.white.withValues(alpha: 0.15),
-                    shape: BoxShape.circle,
-                  ),
-                  child: const Icon(
-                    Icons.favorite,
-                    color: Color(0xFFFF6B9D), // وردي ساخن
-                    size: 20,
-                  ),
-                ),
-              ],
-            ),
-          ],
-        ),
-      ),
+      backgroundColor: AppColors.color20,
 
       body: Column(
         children: [
+          LineTitleInline(),
           // 🟢 محتوى الرودماب القابل للتمرير
           Expanded(
             child: FlutterPathLayout<RoadMapStage>(
@@ -222,12 +203,18 @@ class _RoadMapPageState extends State<RoadMapPage> {
 
               itemBuilder: (context, item, visualIndex) {
                 if (item.isSeparator) {
-                  return _LineSeparator(label: item.title);
+                  return _LineSeparator(
+                    label: item.title,
+                    uiScale: ui,
+                    wScale: wScale,
+                  );
                 }
                 return _StageNode(
                   stage: item,
                   visualIndex: visualIndex,
                   onTap: () => _openLesson(context, item.originalIndex!),
+                  uiScale: ui,
+                  wScale: wScale,
                 );
               },
             ),
@@ -245,11 +232,16 @@ class _StageNode extends StatelessWidget {
   final RoadMapStage stage;
   final int visualIndex;
   final VoidCallback onTap;
+  // 🟢 MediaQuery scales
+  final double uiScale;
+  final double wScale;
 
   const _StageNode({
     required this.stage,
     required this.visualIndex,
     required this.onTap,
+    required this.uiScale,
+    required this.wScale,
   });
 
   @override
@@ -257,36 +249,42 @@ class _StageNode extends StatelessWidget {
     final int stageIndex = stage.originalIndex!;
     final bool unlocked = ProgressService.isStageOpen(stageIndex);
     final bool completed = ProgressService.isStageFullyCompleted(stageIndex);
-    final Color color = RoadMapData.colorOf(visualIndex);
-    final Color effectiveColor = unlocked ? color : Colors.grey;
-    final Color titleColor = unlocked
-        ? (completed ? AppColors.color1 : Colors.black87)
-        : Colors.grey;
 
     return SizedBox(
-      width: 200,
+      width: 200 * wScale,
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
           Material(
-            color: effectiveColor,
-            shape: const CircleBorder(),
-            elevation: completed ? 6 : 1,
+            color: AppColors.color20, //===========================
+            // effectiveColor,
+            shape: const CircleBorder(
+              side: BorderSide(
+                color: AppColors.color2,
+                width: 0.8,
+              ), //===================
+            ),
+            elevation: completed ? 9 : 1,
             child: InkWell(
-              customBorder: const CircleBorder(),
               onTap: unlocked ? onTap : null,
               child: Container(
-                width: 100,
-                height: 60,
+                width: 100 * uiScale,
+                height: 60 * uiScale,
                 alignment: Alignment.center,
                 child: unlocked
-                    ? Icon(stage.iconData, size: 36, color: Colors.white)
-                    : const Icon(Icons.lock, size: 32, color: Colors.white),
+                    ? Icon(
+                        stage.iconData,
+                        size: 36 * uiScale,
+                        color: AppColors.color1,
+                      )
+                    : Icon(
+                        Icons.lock,
+                        size: 32 * uiScale,
+                        color: AppColors.color3,
+                      ),
               ),
             ),
           ),
-
-          const SizedBox(width: 10),
 
           Flexible(
             child: Row(
@@ -294,19 +292,17 @@ class _StageNode extends StatelessWidget {
                 Text(
                   stage.id,
                   style: GoogleFonts.cairo(
-                    fontSize: 12,
+                    fontSize: 12 * uiScale,
                     fontWeight: FontWeight.w800,
-                    height: 1.2,
-                    color: titleColor,
+                    color: AppColors.color1,
                   ),
                 ),
                 Text(
                   stage.title,
                   style: GoogleFonts.cairo(
-                    fontSize: 12,
+                    fontSize: 12 * uiScale,
                     fontWeight: FontWeight.w800,
-                    height: 1.2,
-                    color: titleColor,
+                    color: AppColors.color1,
                   ),
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
@@ -325,21 +321,31 @@ class _StageNode extends StatelessWidget {
 /// ───────────────────────────────────────────────────────────
 class _LineSeparator extends StatelessWidget {
   final String label;
-  const _LineSeparator({required this.label});
+  // 🟢 MediaQuery scales
+  final double uiScale;
+  final double wScale;
+  const _LineSeparator({
+    required this.label,
+    required this.uiScale,
+    required this.wScale,
+  });
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 240,
+      width: 240 * wScale,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
           // 🧊 بطاقة العنوان
           Container(
-            padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 10),
+            padding: EdgeInsets.symmetric(
+              horizontal: 18 * uiScale,
+              vertical: 10 * uiScale,
+            ),
             decoration: BoxDecoration(
               color: Colors.white,
-              borderRadius: BorderRadius.circular(20),
+              borderRadius: BorderRadius.circular(20 * uiScale),
               border: Border.all(color: AppColors.color4, width: 2),
               boxShadow: [
                 BoxShadow(
@@ -353,7 +359,7 @@ class _LineSeparator extends StatelessWidget {
               label,
               textAlign: TextAlign.center,
               style: GoogleFonts.cairo(
-                fontSize: 15,
+                fontSize: 15 * uiScale,
                 fontWeight: FontWeight.w900,
                 color: AppColors.color1,
               ),
@@ -361,7 +367,7 @@ class _LineSeparator extends StatelessWidget {
           ),
 
           // ─── خط فضي يمتد يميناً ويساراً مع نقطة في المنتصف ───
-          const SizedBox(height: 10),
+          SizedBox(height: 10 * uiScale),
           Row(
             children: [
               Expanded(
@@ -378,9 +384,9 @@ class _LineSeparator extends StatelessWidget {
                 ),
               ),
               Container(
-                margin: const EdgeInsets.symmetric(horizontal: 6),
-                width: 8,
-                height: 8,
+                margin: EdgeInsets.symmetric(horizontal: 6 * uiScale),
+                width: 8 * uiScale,
+                height: 8 * uiScale,
                 decoration: const BoxDecoration(
                   color: AppColors.color1,
                   shape: BoxShape.circle,

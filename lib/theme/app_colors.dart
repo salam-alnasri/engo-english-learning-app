@@ -3,34 +3,32 @@ import 'package:flutter/material.dart';
 /// 🧊 لوحة الألوان الجليدية والسريرية للتطبيق.
 /// جميع الألوان باردة (جليدية) أو معدنية (فضية) لتجربة بصرية متناسقة.
 class AppColors {
-  AppColors._();
-
   /// أزرق جليدي عميق — اللون الرئيسي (أزرار، AppBar، أيقونات نشطة)
   static const Color color1 = Color.fromARGB(255, 52, 99, 160);
   static const Color color2 = Color(0xFF6B8CAF);
   static const Color color3 = Color(0xFFEAF4FB);
   static const Color color4 = Color(0xFFC5C9CC);
   static const Color color5 = Color(0xFFF5F7F9);
-
-  // ─────────────────────────────────────────
-  // 🧊 ألوان إضافية للتمييز
-  // ─────────────────────────────────────────
-
   static const Color color6 = Color(0xFFB0E0E6);
   static const Color color7 = Color(0xFFE5E4E2);
   static const Color color8 = Color(0xFF2C4A6B);
   static const Color color9 = Color(0xFFADD8E6);
   static const Color color10 = Color(0xFF87CEEB);
 
-  static const Color color11 = Color(0xFF2D1B4E); // بنفسجي ليلي
-  static const Color color12 = Color(0xFF4A2570); // أرجواني عميق
-  static const Color color13 = Color(0xFF7B2D8E); // بنفسجي ملكي
-  static const Color color14 = Color(0xFFB03A8C); // فوشيا
-  static const Color color15 = Color(0xFFE0457B); // وردي ساطع
-  static const Color color16 = Color(0xFFFF6B6B); // مرجاني
-  static const Color color17 = Color(0xFFFF8E53); // برتقالي غروب
-  static const Color color18 = Color(0xFFFFB347); // عنبري
-  static const Color color19 = Color(0xFFFFD98E); // ذهبي فاتح
+  static const Color color11 = Color(0xFF2D1B4E); //
+  static const Color color12 = Color(0xFF4A2570); //
+  static const Color color13 = Color(0xFF7B2D8E); //
+  static const Color color14 = Color(0xFFB03A8C); //
+  static const Color color15 = Color(0xFFE0457B); //
+  static const Color color16 = Color(0xFFFF6B6B); //
+  static const Color color17 = Color(0xFF2C4A6B); // لو بطاقة عنوان القصة
+  static const Color color18 = Color(
+    0xFF6B8CAF,
+  ); // لون عناوين وبطاقات القصص داخل كل مستوى
+  static const Color color19 = Color(
+    0xFF6B8CAF,
+  ); // الوان الاطارات والايقونات في صفحة المستويات
+  static const Color color20 = Color(0xffF5F8FC); // خلفية التطبيق
 
   // ─────────────────────────────────────────
   // 🌈 تدرّج أيقونات الرودماب (جليدي → فضي)
